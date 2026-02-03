@@ -41,7 +41,7 @@ export const SiteInfoBar = () => {
                         href= { window.NewfoldRuntime.linkTracker.addUtmParams( 'https://www.bigrock.in/login' ) }
                         target="_blank"
                         variant="primary" 
-                        className={`nfd-bg-primary nfd-text-white nfd-text-tiny nfd-w-full min-[400px]:nfd-w-auto`}>
+                        className={`nfd-bg-primary nfd-text-white nfd-text-tiny nfd-font-semibold nfd-w-full min-[400px]:nfd-w-auto`}>
                         <BRWhiteLogo />
                         { __("BigRock Account", 'wp-plugin-bigrock') }
                     </Button>
