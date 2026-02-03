@@ -29,7 +29,6 @@ final class Admin {
 		if ( isset( $_GET['page'] ) && strpos( filter_input( INPUT_GET, 'page', FILTER_UNSAFE_RAW ), 'bigrock' ) >= 0 ) { // phpcs:ignore
 			\add_action( 'admin_footer_text', array( __CLASS__, 'add_brand_to_admin_footer' ) );
 		}
-
 	}
 
 	/**
@@ -139,7 +138,7 @@ final class Admin {
 			// fallback messaging for WordPress older than 5.4.
 			echo '<div id="wppbr-app" class="wppbr wppbr_app">' . PHP_EOL;
 			echo '<header class="wppbr-header" style="min-height: 90px; padding: 1rem; margin-bottom: 1.5rem;"><div class="wppbr-header-inner"><div class="wppbr-logo-wrap">' . PHP_EOL;
-			echo '<img src="' . esc_url( BIGROCK_PLUGIN_URL . "assets/svg/bigrock.svg" ) . '" alt=" logo" />' . PHP_EOL;
+			echo '<img src="' . esc_url( BIGROCK_PLUGIN_URL . 'assets/svg/bigrock.svg' ) . '" alt=" logo" />' . PHP_EOL;
 			echo '</div></div></header>' . PHP_EOL;
 			echo '<div class="wrap">' . PHP_EOL;
 			echo '<div class="card" style="margin-left: 20px;"><h2 class="title">' . esc_html__( 'Please update to a newer WordPress version.', 'wp-plugin-bigrock' ) . '</h2>' . PHP_EOL;
@@ -209,7 +208,7 @@ final class Admin {
 	 */
 	public static function add_brand_to_admin_footer( $footer_text ) {
 		$wordpress_url = '<a href="' . apply_filters( 'nfd_build_url', 'https://wordpress.org/', array( 'source' => 'bigrock_admin_footer' ) ) . '">WordPress</a>';
-		$bigrock_url    = '<a href="' . apply_filters( 'nfd_build_url', 'https://www.bigrock.in/', array( 'source' => 'bigrock_admin_footer' ) ) . '">BigRock</a>';
+		$bigrock_url   = '<a href="' . apply_filters( 'nfd_build_url', 'https://www.bigrock.in/', array( 'source' => 'bigrock_admin_footer' ) ) . '">BigRock</a>';
 
 		// translators: %1$s is the WordPress URL, %2$s is the BigRock URL.
 		$footer_text = sprintf( \__( 'Thank you for creating with %1$s and %2$s', 'wp-plugin-bigrock' ), $wordpress_url, $bigrock_url );

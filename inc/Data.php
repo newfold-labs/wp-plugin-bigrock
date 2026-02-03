@@ -29,5 +29,4 @@ final class Data {
 		);
 		return $runtime;
 	}
-
 }
