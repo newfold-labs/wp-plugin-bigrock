@@ -32,8 +32,8 @@ msgstr ""
 
 #. Author of the plugin
 #: wp-plugin-bigrock.php
+#: inc/Admin.php:94
 #: inc/Admin.php:95
-#: inc/Admin.php:96
 msgid "BigRock"
 msgstr ""
 
@@ -56,61 +56,61 @@ msgid "A %1$s%s%2$s powered website. Is this your website? Log in to %3$sWordPre
 msgstr ""
 
 #. translators: %s: Blog name
-#: bootstrap.php:76
+#: bootstrap.php:78
 #, php-format
 msgid "%s &mdash; Coming Soon"
 msgstr ""
 
-#: bootstrap.php:79
+#: bootstrap.php:81
 msgid "Coming Soon Active"
 msgstr ""
 
 #. translators: %1$s is replaced with the opening link tag to preview the page, and %2$s is replaced with the closing link tag, %3$s is the opening link tag, %4$s is the closing link tag.
-#: bootstrap.php:82
+#: bootstrap.php:84
 #, php-format
 msgid "Your site is currently displaying a %1$scoming soon page%2$s. Once you are ready, %3$slaunch your site%4$s."
 msgstr ""
 
-#: bootstrap.php:83
+#: bootstrap.php:85
 msgid "Preview the coming soon landing page"
 msgstr ""
 
-#: inc/Admin.php:56
-#: inc/Admin.php:197
+#: inc/Admin.php:55
+#: inc/Admin.php:196
 #: build/1.0.0/index.js:1
 msgid "Home"
 msgstr ""
 
-#: inc/Admin.php:57
+#: inc/Admin.php:56
 #: build/1.0.0/index.js:1
 msgid "Marketplace"
 msgstr ""
 
-#: inc/Admin.php:58
-#: inc/Admin.php:198
+#: inc/Admin.php:57
+#: inc/Admin.php:197
 #: build/1.0.0/index.js:1
 msgid "Settings"
 msgstr ""
 
-#: inc/Admin.php:59
+#: inc/Admin.php:58
 #: build/1.0.0/index.js:1
 msgid "Help"
 msgstr ""
 
-#: inc/Admin.php:145
+#: inc/Admin.php:144
 msgid "Please update to a newer WordPress version."
 msgstr ""
 
-#: inc/Admin.php:146
+#: inc/Admin.php:145
 msgid "There are new WordPress components which this plugin requires in order to render the interface."
 msgstr ""
 
-#: inc/Admin.php:147
+#: inc/Admin.php:146
 msgid "Please update now"
 msgstr ""
 
 #. translators: %1$s is the WordPress URL, %2$s is the BigRock URL.
-#: inc/Admin.php:215
+#: inc/Admin.php:214
 #, php-format
 msgid "Thank you for creating with %1$s and %2$s"
 msgstr ""
@@ -163,7 +163,7 @@ msgstr ""
 msgid "The \"%s\" plugin has been deactivated."
 msgstr ""
 
-#: inc/RestApi/CachingController.php:65
+#: inc/RestApi/CachingController.php:63
 #: inc/RestApi/SettingsController.php:205
 msgid "Sorry, you are not allowed to access this endpoint."
 msgstr ""
