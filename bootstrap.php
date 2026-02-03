@@ -55,7 +55,6 @@ $bigrock_module_container->set(
 add_filter(
 	'newfold/coming-soon/filter/args',
 	function ( $args, $default_args ) {
-		$brandName = get_option( 'mm_brand', 'bigrock' );
 		$args      = wp_parse_args(
 			array(
 				'admin_app_url'       => admin_url( 'admin.php?page=bigrock#/home' ),
@@ -63,10 +62,8 @@ add_filter(
 				'template_h2'         => __( 'A New WordPress Site', 'wp-plugin-bigrock' ),
 				'template_footer_t'   => sprintf(
 				/* translators: %1$s is replaced with opening link tag taking you to bigrock.com/wordpress-hosting, %2$s is replaced with closing link tag, %3$s is replaced with opening link tag taking you to login page, %4$s is replaced with closing link tag, %5$s is replaced with opening link tag taking you to my.bigrock.com, %6$s is replaced with closing link tag */
-					esc_html__( 'A %1$s%s%2$s powered website. Is this your website? Log in to %3$sWordPress%4$s or %5$s%s%6$s.', 'wp-plugin-bigrock' ) . '&nbsp;',
+					esc_html__( 'A %1$sBigRock%2$s powered website. Is this your website? Log in to %3$sWordPress%4$s or %5$sBigRock%6$s.', 'wp-plugin-bigrock' ) . '&nbsp;',
 					'<a href="' . esc_url( 'https://www.bigrock.in/wordpress-hosting/' ) . '" target="_blank" rel="noopener noreferrer nofollow">',
-					strtoupper( $brandName ),
-					strtoupper( $brandName ),
 					'</a>',
 					'<a href="' . esc_url( wp_login_url() ) . '">',
 					'</a>',
