@@ -21,7 +21,7 @@ export const SiteInfoBar = () => {
     }
 
     return (
-        <div className="wppbr-app-site-info nfd-bg-gradient-to-r nfd-from-slate-50 nfd-to-red-50 nfd-w-full nfd-py-6 nfd-px-8 nfd-mb-8 nfd-border nfd-border-slate-200 nfd-rounded-lg nfd-shadow-sm">
+        <div className="wppbr-app-site-info nfd-bg-gradient-to-r nfd-from-slate-50 nfd-to-orange-50 nfd-w-full nfd-py-6 nfd-px-8 nfd-mb-8 nfd-border nfd-border-slate-200 nfd-rounded-lg nfd-shadow-sm">
             <div className="nfd-flex nfd-justify-between nfd-items-center nfd-flex-wrap nfd-gap-4">
 
                 <div className="nfd-w-max nfd-flex nfd-flex-col nfd-gap-1.5">

@@ -47,7 +47,7 @@ describe('Home Page', { testIsolation: true }, () => {
 
 	it(Cypress.env( 'pluginId' ) + ' Hosting Section Exists', () => {
 		cy
-			.get( appClass + '-app-home-hosting').contains('h3', Cypress.env( 'pluginId' ) + ' Hosting')
+			.get( appClass + '-app-home-hosting').contains('h3', 'BigRock Hosting')
 			.scrollIntoView()
 			.should('be.visible');
 	});
