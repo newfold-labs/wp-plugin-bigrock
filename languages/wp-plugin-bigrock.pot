@@ -41,37 +41,37 @@ msgstr ""
 msgid "Please install the BigRock Plugin dependencies."
 msgstr ""
 
-#: bootstrap.php:62
+#: bootstrap.php:61
 msgid "Coming Soon!"
 msgstr ""
 
-#: bootstrap.php:63
+#: bootstrap.php:62
 msgid "A New WordPress Site"
 msgstr ""
 
 #. translators: %1$s is replaced with opening link tag taking you to bigrock.com/wordpress-hosting, %2$s is replaced with closing link tag, %3$s is replaced with opening link tag taking you to login page, %4$s is replaced with closing link tag, %5$s is replaced with opening link tag taking you to my.bigrock.com, %6$s is replaced with closing link tag
-#: bootstrap.php:66
+#: bootstrap.php:65
 #, php-format
-msgid "A %1$s%s%2$s powered website. Is this your website? Log in to %3$sWordPress%4$s or %5$s%s%6$s."
+msgid "A %1$sBigRock%2$s powered website. Is this your website? Log in to %3$sWordPress%4$s or %5$sBigRock%6$s."
 msgstr ""
 
 #. translators: %s: Blog name
-#: bootstrap.php:78
+#: bootstrap.php:75
 #, php-format
 msgid "%s &mdash; Coming Soon"
 msgstr ""
 
-#: bootstrap.php:81
+#: bootstrap.php:78
 msgid "Coming Soon Active"
 msgstr ""
 
 #. translators: %1$s is replaced with the opening link tag to preview the page, and %2$s is replaced with the closing link tag, %3$s is the opening link tag, %4$s is the closing link tag.
-#: bootstrap.php:84
+#: bootstrap.php:81
 #, php-format
 msgid "Your site is currently displaying a %1$scoming soon page%2$s. Once you are ready, %3$slaunch your site%4$s."
 msgstr ""
 
-#: bootstrap.php:85
+#: bootstrap.php:82
 msgid "Preview the coming soon landing page"
 msgstr ""
 
