@@ -3,35 +3,24 @@ const help = [
 		name: 'chat',
 		title: __( 'Chat', 'wp-plugin-bigrock' ),
 		description: __(
-			'Chat with our sales and support team for quick, helpful answers to questions about product features, pricing and more. Our chat agents are available 24/7.',
+			'For any sales or support assistance, please visit: <a href="https://www.bigrock.in/support/contact-us">https://www.bigrock.in/support/contact-us</a>',
 			'wp-plugin-bigrock'
 		),
 		icon: false,
 		cta: __( 'Live Chat', 'wp-plugin-bigrock' ),
 		url:
-			'https://www.bigrock.in/support/contact-us?utm_campaign=&utm_content=help_chat_link&utm_term=live_chat&utm_medium=brand_plugin&utm_source=wp-admin/admin.php?page=bigrock#/help',
+			'https://myorders.bigrock.in/support?utm_campaign=&utm_content=help_chat_link&utm_term=live_chat&utm_medium=brand_plugin&utm_source=wp-admin/admin.php?page=bigrock#/help',
 	},
 	{
 		name: 'phone',
 		title: __( 'Phone', 'wp-plugin-bigrock' ),
 		description: __(
-			'Speak to our award-winning support team over the phone. Our customer service team is available to help.',
+			'For any sales or support assistance, please visit: <a href="https://www.bigrock.in/support/contact-us">https://www.bigrock.in/support/contact-us</a>',
 			'wp-plugin-bigrock'
 		),
 		icon: false,
 		cta: __( 'Call Us', 'wp-plugin-bigrock' ),
-		url: 'tel: 1-800-266-7625',
-	},
-	{
-		name: 'twitter',
-		title: __( 'Tweet', 'wp-plugin-bigrock' ),
-		description: __(
-			'Find our team on social media for updates on our products and support from our team.',
-			'wp-plugin-bigrock'
-		),
-		icon: false,
-		cta: __( 'Tweet Us', 'wp-plugin-bigrock' ),
-		url: 'https://x.com/bigrock',
+		url: 'https://www.bigrock.in/help',
 	},
 	{
 		name: 'kb',
@@ -55,18 +44,7 @@ const help = [
 		icon: false,
 		cta: __( 'Learn Stuff', 'wp-plugin-bigrock' ),
 		url:
-			'https://www.vodien.com/learn/?utm_campaign=&utm_content=help_blog_link&utm_term=learn_stuff&utm_medium=brand_plugin&utm_source=wp-admin/admin.php?page=bigrock#/help',
-	},
-	{
-		name: 'video',
-		title: __( 'Video Tutorials', 'wp-plugin-bigrock' ),
-		description: __(
-			'Check out our video library of step-by-step tutorials.',
-			'wp-plugin-bigrock'
-		),
-		icon: false,
-		cta: __( 'Watch Now', 'wp-plugin-bigrock' ),
-		url: 'https://www.youtube.com/@bigrock',
+			'https://www.bigrock.in/blog/?utm_campaign=&utm_content=help_blog_link&utm_term=learn_stuff&utm_medium=brand_plugin&utm_source=wp-admin/admin.php?page=bigrock#/help',
 	},
 ];
 

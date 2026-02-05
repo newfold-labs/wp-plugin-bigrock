@@ -17,7 +17,7 @@ const HelpCard = ({ item }) => {
 					size="4"
 					className="nfd-mb-2"	
 				>{item.title}</Title>
-				<p>{item.description}</p>
+				<p dangerouslySetInnerHTML={{ __html: item.description }} />
 			</Card.Content>
 
 			<Card.Footer>
@@ -40,7 +40,7 @@ const Help = () => {
 		const helpItems = help;
 
 		return (
-			<div className="nfd-grid nfd-gap-6 nfd-grid-cols-1 sm:nfd-grid-cols-2 xl:nfd-grid-cols-3 2xl:nfd-grid-cols-4">
+			<div className="nfd-grid nfd-gap-6 nfd-grid-cols-1 sm:nfd-grid-cols-2 xl:nfd-grid-cols-3 2xl:nfd-grid-cols-3">
 				{helpItems.map((item) => (
 					<HelpCard key={item.name} item={item} />
 				))}
