@@ -27,7 +27,7 @@ module.exports = {
                 },
                 title: "#1F2937",
                 body: "#374151",
-                link: "#FF7700",
+                link: "#BD5800",
                 line: "#E2E8F0",
                 white: "#FFFFFF",
                 offWhite: "#F5F6F8",
