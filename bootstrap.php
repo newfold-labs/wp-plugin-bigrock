@@ -55,7 +55,7 @@ $bigrock_module_container->set(
 add_filter(
 	'newfold/coming-soon/filter/args',
 	function ( $args, $default_args ) {
-		$args      = wp_parse_args(
+		$args = wp_parse_args(
 			array(
 				'admin_app_url'       => admin_url( 'admin.php?page=bigrock#/home' ),
 				'template_h1'         => __( 'Coming Soon!', 'wp-plugin-bigrock' ),
