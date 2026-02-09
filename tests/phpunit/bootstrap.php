@@ -1,4 +1,9 @@
 <?php
+/**
+ * Bootstrap file for unit tests.
+ *
+ * @package WPPluginBigRock
+ */
 
 // Load up Composer dependencies
 require dirname( dirname( __DIR__ ) ) . '/vendor/autoload.php';
