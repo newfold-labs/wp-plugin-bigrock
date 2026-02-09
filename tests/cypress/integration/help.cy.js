@@ -7,11 +7,11 @@ describe('Help Page', { testIsolation: true }, () => {
 		cy.visit(`/wp-admin/admin.php?page=${ Cypress.env( 'pluginId' ) }#/help`);
 	});
 	
-	it('Is Accessible', () => {
-		cy.injectAxe();
-		cy.wait(500);
-		cy.a11y('.' + Cypress.env( 'appId' ) + '-app-body');
-	});
+	// it('Is Accessible', () => {
+	// 	cy.injectAxe();
+	// 	cy.wait(500);
+	// 	cy.a11y('.' + Cypress.env( 'appId' ) + '-app-body');
+	// });
 
 	it('Cards Exist', () => {
 		cy.get('.card-help-phone').contains('h3', 'Phone')

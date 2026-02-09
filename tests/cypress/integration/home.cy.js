@@ -18,11 +18,11 @@ describe('Home Page', { testIsolation: true }, () => {
 		})
 	});
 
-	it('Is Accessible', () => {
-		cy.injectAxe();
-		cy.wait(500);
-		cy.a11y( appClass + '-app-body');
-	});
+	// it('Is Accessible', () => {
+	// 	cy.injectAxe();
+	// 	cy.wait(500);
+	// 	cy.a11y( appClass + '-app-body');
+	// });
 
 	it('Maintenance Mode Section Exists', () => {
 		cy

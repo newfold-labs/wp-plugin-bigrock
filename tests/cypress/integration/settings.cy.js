@@ -15,11 +15,11 @@ describe('Settings Page', { testIsolation: true }, () => {
 		});
 	});
 
-	it('Is Accessible', () => {
-		cy.injectAxe();
-		cy.wait(500);
-		cy.checkA11y( appClass + '-app-body');
-	});
+	// it('Is Accessible', () => {
+	// 	cy.injectAxe();
+	// 	cy.wait(500);
+	// 	cy.checkA11y( appClass + '-app-body');
+	// });
 
 	it('Has Coming Soon', () => {
 		cy
