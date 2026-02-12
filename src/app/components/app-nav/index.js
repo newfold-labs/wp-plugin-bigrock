@@ -239,7 +239,7 @@ export const TopBarNav = () => {
 											key={page.name}
 											onClick={(page.action && page.action instanceof Function) ? page.action : null}
 											to={page.name}
-											className={`wppbr-app-navitem wppbr-app-navitem-${page.title} nfd-flex nfd-items-center nfd-gap-2 nfd-px-3 nfd-py-2 nfd-rounded-md nfd-text-sm nfd-font-medium nfd-text-title leading-none hover:nfd-bg-slate-50 [&.active]:nfd-bg-[#ffaa60a1] nfd-transition-colors`}
+											className={`wppbr-app-navitem wppbr-app-navitem-${page.title} nfd-flex nfd-items-center nfd-gap-2 nfd-px-3 nfd-py-2 nfd-rounded-md nfd-text-sm nfd-font-medium nfd-text-title leading-none hover:nfd-bg-orange-300 [&.active]:nfd-bg-[#ffaa60a1] nfd-transition-colors`}
 										>
 											{page.Icon && <page.Icon className="nfd-w-5 nfd-h-5" />}
 											{page.title}
@@ -252,7 +252,7 @@ export const TopBarNav = () => {
 									key={page.name}
 									onClick={(page.action && page.action instanceof Function) ? page.action : null}
 									to={page.name}
-									className={`wppbr-app-navitem wppbr-app-navitem-${page.title} nfd-flex nfd-items-center nfd-gap-2 nfd-px-3 nfd-py-2 nfd-rounded-md nfd-text-sm nfd-font-medium nfd-text-title leading-none hover:nfd-bg-slate-50 [&.active]:nfd-bg-[#ffaa60a1] nfd-transition-colors`}
+									className={`wppbr-app-navitem wppbr-app-navitem-${page.title} nfd-flex nfd-items-center nfd-gap-2 nfd-px-3 nfd-py-2 nfd-rounded-md nfd-text-sm nfd-font-medium nfd-text-title leading-none hover:nfd-bg-orange-300 [&.active]:nfd-bg-[#ffaa60a1] nfd-transition-colors`}
 								>
 									{page.Icon && <page.Icon className="nfd-w-5 nfd-h-5" />}
 									{page.title}
