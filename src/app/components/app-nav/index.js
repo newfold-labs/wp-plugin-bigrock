@@ -231,7 +231,7 @@ export const TopBarNav = () => {
 					
 					{/* Desktop Navigation - Horizontal Menu */}
 					{isLargeViewport && (
-						<nav className="nfd-hidden min-[783px]:nfd-flex nfd-items-center nfd-gap-1">
+						<nav className=" min-[783px]:nfd-flex nfd-items-center nfd-gap-1">
 							{topRoutes.map(
 								(page) => (
 									true === page.condition && (
