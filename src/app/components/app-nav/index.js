@@ -1,14 +1,17 @@
 import { useEffect, useState } from '@wordpress/element';
+import { NewfoldRuntime } from '@newfold/wp-module-runtime';
 import apiFetch from '@wordpress/api-fetch';
+import { WordPressIcon } from "../icons";
 import { useViewportMatch } from '@wordpress/compose';
 import { addQueryArgs } from '@wordpress/url';
 import { filter } from 'lodash';
-import { Modal, SidebarNavigation } from "@newfold/ui-component-library"
+import { Button, Modal, SidebarNavigation } from "@newfold/ui-component-library"
 import { NavLink, useLocation } from 'react-router-dom';
 import { Bars3Icon } from "@heroicons/react/24/outline";
 import { topRoutes, utilityRoutes } from "../../data/routes";
 import Logo from "./logo";
 import { default as NewfoldNotifications } from '@modules/wp-module-notifications/assets/js/components/notifications/';
+import { ReactComponent as BRWhiteLogo } from '../../../../assets/svg/BR_white.svg';
 
 export const SideNavHeader = () => {
 	return (
@@ -88,7 +91,7 @@ export const SideNavMenu = () => {
 	return (
 		<div className="nfd-px-0.5 nfd-space-y-6">
 			{primaryMenu()}
-			{secondaryMenu()}
+			{/* {secondaryMenu()} */}
 		</div>
 	);
 }
@@ -215,7 +218,9 @@ export const TopBarNav = () => {
 	const isLargeViewport = useViewportMatch('medium');
 	let location = useLocation();
 	const hashedPath = '#' + location.pathname;
-	
+	 const isEcommerce = NewfoldRuntime.hasCapability("isEcommerce");
+		const isStore = window.location.href?.includes("store");
+		const { url } = NewfoldRuntime.siteDetails;
 	// Close mobile nav when location changes
 	useEffect(() => {
 		setIsOpen(false);
@@ -224,13 +229,14 @@ export const TopBarNav = () => {
 	return (
 		<header className="wppbr-app-topbar nfd-border-b nfd-border-line nfd-bg-white nfd-shadow-sm">
 			<div className="nfd-flex nfd-justify-between nfd-items-center nfd-px-4 nfd-min-h-16">
-				<div className="nfd-flex nfd-items-center nfd-gap-8">
+				<div className="nfd-flex nfd-items-center nfd-gap-8 nfd-w-100">
 					<div className="nfd-shrink-0">
 						<Logo />
 					</div>
 					
 					{/* Desktop Navigation - Horizontal Menu */}
 					{isLargeViewport && (
+						<>
 						<nav className=" min-[783px]:nfd-flex nfd-items-center nfd-gap-1">
 							{topRoutes.map(
 								(page) => (
@@ -246,19 +252,29 @@ export const TopBarNav = () => {
 										</NavLink>
 									)
 							))}
-							{/* <div className="nfd-h-6 nfd-w-px nfd-bg-[#D8DEE4] nfd-mx-2"></div> */}
-							{utilityRoutes.map((page) => (
-								<NavLink
-									key={page.name}
-									onClick={(page.action && page.action instanceof Function) ? page.action : null}
-									to={page.name}
-									className={`wppbr-app-navitem wppbr-app-navitem-${page.title} nfd-flex nfd-items-center nfd-gap-2 nfd-px-3 nfd-py-2 nfd-rounded-md nfd-text-sm nfd-font-medium nfd-text-title leading-none hover:nfd-bg-orange-300 [&.active]:nfd-bg-[#ffaa60a1] nfd-transition-colors`}
-								>
-									{page.Icon && <page.Icon className="nfd-w-5 nfd-h-5" />}
-									{page.title}
-								</NavLink>
-							))}
 						</nav>
+						<div className="nfd-flex nfd-items-center nfd-gap-3">
+								<Button
+									as="a"
+									href={ window.NewfoldRuntime.linkTracker.addUtmParams( 'https://www.bigrock.in/login/' ) }
+									target="_blank"
+									variant="primary" 
+									className="nfd-bg-primary nfd-text-white nfd-text-sm nfd-px-4 nfd-py-2 hover:nfd-bg-primary-dark">
+									<BRWhiteLogo className="nfd-w-4 nfd-h-4" />
+									{ __("BigRock Account", "wp-plugin-bigrock") }
+								</Button>
+								<Button 
+									as="a" 
+									href={(isEcommerce && isStore) ? window.NewfoldRuntime.linkTracker.addUtmParams(`${url}/shop`) : window.NewfoldRuntime.linkTracker.addUtmParams( url )}
+									target="_blank" 
+									variant="secondary" 
+									className="nfd-bg-white nfd-text-slate-900 nfd-text-sm nfd-px-4 nfd-py-2 nfd-border-slate-300 hover:nfd-bg-slate-50"
+								>
+									<WordPressIcon className="nfd-w-4 nfd-h-4" />
+									{ (isEcommerce && isStore) ? __("View Store", "wp-plugin-bigrock") : __("View Site", "wp-plugin-bigrock") }
+								</Button>
+						</div>
+						</>
 					)}
 				</div>
 
