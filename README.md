@@ -1,5 +1,5 @@
 <a href="https://www.bigrock.in/" target="_blank">
-    <img src="https://raw.githubusercontent.com/newfold-labs/wp-plugin-bigrock/main/assets/svg/vodien-logo.svg" alt="Bigrock Logo" title="Bigrock" align="right" height="32" />
+    <img src="https://raw.githubusercontent.com/newfold-labs/wp-plugin-bigrock/main/assets/svg/bigrock.svg" alt="Bigrock Logo" title="Bigrock" align="right" height="32" />
 </a>
 
 # Bigrock WordPress Plugin
