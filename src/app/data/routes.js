@@ -17,8 +17,9 @@ const topRoutePaths = [
 	'/home',
 	'/marketplace',
 	'/settings',
+	'/help'
 ];
-const utilityRoutePaths = [ '/help' ];
+const utilityRoutePaths = [ ];
 
 export const routes = [
 	{
@@ -55,12 +56,6 @@ export const routes = [
 		title: __( 'Help', 'wp-plugin-bigrock' ),
 		Component: Help,
 		Icon: QuestionMarkCircleIcon,
-		condition: true,
-	},
-	{
-		name: '/admin',
-		title: __( 'Admin', 'wp-plugin-bigrock' ),
-		Component: Admin,
 		condition: true,
 	},
 ];

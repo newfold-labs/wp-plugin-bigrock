@@ -246,7 +246,7 @@ export const TopBarNav = () => {
 										</NavLink>
 									)
 							))}
-							<div className="nfd-h-6 nfd-w-px nfd-bg-[#D8DEE4] nfd-mx-2"></div>
+							{/* <div className="nfd-h-6 nfd-w-px nfd-bg-[#D8DEE4] nfd-mx-2"></div> */}
 							{utilityRoutes.map((page) => (
 								<NavLink
 									key={page.name}
