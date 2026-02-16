@@ -153,6 +153,7 @@ require BIGROCK_PLUGIN_DIR . '/inc/RestApi/SettingsController.php';
 require BIGROCK_PLUGIN_DIR . '/inc/RestApi/rest-api.php';
 require BIGROCK_PLUGIN_DIR . '/inc/settings.php';
 require BIGROCK_PLUGIN_DIR . '/inc/updates.php';
+require BIGROCK_PLUGIN_DIR . '/inc/widgets/bootstrap.php';
 
 /* WordPress Admin Page & Features */
 if ( is_admin() ) {
