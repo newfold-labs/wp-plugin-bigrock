@@ -229,14 +229,13 @@ export const TopBarNav = () => {
 	return (
 		<header className="wppbr-app-topbar nfd-border-b nfd-border-line nfd-bg-white nfd-shadow-sm">
 			<div className="nfd-flex nfd-justify-between nfd-items-center nfd-px-4 nfd-min-h-16">
-				<div className="nfd-flex nfd-items-center nfd-gap-8 nfd-w-100">
+				<div className="nfd-flex nfd-items-center nfd-gap-8 ">
 					<div className="nfd-shrink-0">
 						<Logo />
 					</div>
 					
 					{/* Desktop Navigation - Horizontal Menu */}
 					{isLargeViewport && (
-						<>
 						<nav className=" min-[783px]:nfd-flex nfd-items-center nfd-gap-1">
 							{topRoutes.map(
 								(page) => (
@@ -253,7 +252,10 @@ export const TopBarNav = () => {
 									)
 							))}
 						</nav>
-						<div className="nfd-flex nfd-items-center nfd-gap-3">
+					)}
+				</div>
+
+					<div className="nfd-flex nfd-items-center nfd-gap-3">
 								<Button
 									as="a"
 									href={ window.NewfoldRuntime.linkTracker.addUtmParams( 'https://www.bigrock.in/login/' ) }
@@ -273,10 +275,7 @@ export const TopBarNav = () => {
 									<WordPressIcon className="nfd-w-4 nfd-h-4" />
 									{ (isEcommerce && isStore) ? __("View Store", "wp-plugin-bigrock") : __("View Site", "wp-plugin-bigrock") }
 								</Button>
-						</div>
-						</>
-					)}
-				</div>
+					</div>
 
 				{/* Mobile Menu Button */}
 				{!isLargeViewport && (
