@@ -15,7 +15,7 @@
  * Version:           1.0.0
  * Requires at least: 6.6
  * Requires PHP:      7.4
- * Tested up to:      6.9
+ * Tested up to:      6.9.1
  * Author:            BigRock
  * Author URI:        https://www.bigrock.in
  * Text Domain:       wp-plugin-bigrock
