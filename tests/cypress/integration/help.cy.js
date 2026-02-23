@@ -14,7 +14,7 @@ describe('Help Page', { testIsolation: true }, () => {
 	// });
 
 	it('Cards Exist', () => {
-		cy.get('.card-help-phone').contains('h3', 'Phone')
+		cy.get('.card-help-phone').contains('h3', 'Call Us')
 			.scrollIntoView()
 			.should('be.visible');
 	
