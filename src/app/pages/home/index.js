@@ -5,6 +5,7 @@ import ComingSoon from 'App/pages/settings/comingSoon';
 import SettingsSection from 'App/pages/home/settingsSection';
 import WebContentSection from 'App/pages/home/webContentSection';
 import WebHostingSection from 'App/pages/home/webHostingSection';
+import { useEffect } from '@wordpress/element';
 
 const Home = () => {
 
