@@ -13,7 +13,7 @@ const help = [
 	},
 	{
 		name: 'phone',
-		title: __( 'Phone', 'wp-plugin-bigrock' ),
+		title: __( 'Call Us', 'wp-plugin-bigrock' ),
 		description: __(
 			'For any sales or support assistance, please visit: <a href="https://www.bigrock.in/support/contact-us">https://www.bigrock.in/support/contact-us</a>',
 			'wp-plugin-bigrock'
