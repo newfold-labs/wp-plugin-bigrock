@@ -78,22 +78,32 @@ msgstr ""
 #: inc/Admin.php:55
 #: inc/Admin.php:196
 #: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:2124
+#: build/1.0.0/index.js:15063
 msgid "Home"
 msgstr ""
 
 #: inc/Admin.php:56
 #: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:2131
+#: build/1.0.0/index.js:15314
+#: build/1.0.0/index.js:15786
 msgid "Marketplace"
 msgstr ""
 
 #: inc/Admin.php:57
 #: inc/Admin.php:197
 #: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:1931
+#: build/1.0.0/index.js:2146
+#: build/1.0.0/index.js:15297
 msgid "Settings"
 msgstr ""
 
 #: inc/Admin.php:58
 #: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:2153
+#: build/1.0.0/index.js:17320
 msgid "Help"
 msgstr ""
 
@@ -188,16 +198,19 @@ msgstr ""
 
 #: inc/widgets/views/site-preview.php:148
 #: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:2465
 msgid "Not Live"
 msgstr ""
 
 #: inc/widgets/views/site-preview.php:149
 #: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:2469
 msgid "Live"
 msgstr ""
 
 #: inc/widgets/views/site-preview.php:162
 #: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:2549
 msgid "Your website is currently displaying a \"Coming Soon\" page."
 msgstr ""
 
@@ -210,6 +223,7 @@ msgid "Preview Site"
 msgstr ""
 
 #: inc/widgets/views/site-preview.php:179
+#: build/1.0.0/index.js:385
 msgid "View Site"
 msgstr ""
 
@@ -226,153 +240,603 @@ msgid "Enable Coming Soon"
 msgstr ""
 
 #: build/1.0.0/index.js:1
-msgid "Settings and Performance"
-msgstr ""
-
-#: build/1.0.0/index.js:1
-msgid "Customize & fine-tune your site."
-msgstr ""
-
-#: build/1.0.0/index.js:1
-msgid "Manage Settings"
-msgstr ""
-
-#: build/1.0.0/index.js:1
-msgid "Manage your site settings. You can ajdust automatic updates, comments, revisions and more."
-msgstr ""
-
-#: build/1.0.0/index.js:1
-msgid "Performance"
-msgstr ""
-
-#: build/1.0.0/index.js:1
-msgid "Manage site performance and caching settings as well as clear the site cache."
-msgstr ""
-
-#: build/1.0.0/index.js:1
-msgid "Visit Marketplace"
-msgstr ""
-
-#: build/1.0.0/index.js:1
-msgid "Add site services, themes or plugins from the marketplace."
-msgstr ""
-
-#: build/1.0.0/index.js:1
-msgid "Chat"
-msgstr ""
-
-#: build/1.0.0/index.js:1
-msgid "For any sales or support assistance, please visit: <a href=\"https://www.bigrock.in/support/contact-us\">https://www.bigrock.in/support/contact-us</a>"
-msgstr ""
-
-#: build/1.0.0/index.js:1
-msgid "Live Chat"
-msgstr ""
-
-#: build/1.0.0/index.js:1
-msgid "Call Us"
-msgstr ""
-
-#: build/1.0.0/index.js:1
-msgid "Knowledge Base"
-msgstr ""
-
-#: build/1.0.0/index.js:1
-msgid "Our experts share their experience and well-organized guides to common questions."
-msgstr ""
-
-#: build/1.0.0/index.js:1
-msgid "Find Answers"
-msgstr ""
-
-#: build/1.0.0/index.js:1
-msgid "Blog"
-msgstr ""
-
-#: build/1.0.0/index.js:1
-msgid "Learn best practices, get insider tips and find the latest news about BigRock."
-msgstr ""
-
-#: build/1.0.0/index.js:1
-msgid "Learn Stuff"
-msgstr ""
-
-#: build/1.0.0/index.js:1
-msgid "Web WordPress Plugin"
-msgstr ""
-
-#: build/1.0.0/index.js:1
-msgid "There's nothing here!"
-msgstr ""
-
-#: build/1.0.0/index.js:1
-msgid "Site Status"
-msgstr ""
-
-#: build/1.0.0/index.js:1
-msgid "Coming soon page"
-msgstr ""
-
-#: build/1.0.0/index.js:1
-msgid "Your Coming Soon page lets you hide your site from visitors while you make the magic happen."
-msgstr ""
-
-#: build/1.0.0/index.js:1
-msgid "Oops! Something went wrong. Please try again."
-msgstr ""
-
-#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:375
 msgid "BigRock Account"
 msgstr ""
 
 #: build/1.0.0/index.js:1
-msgid "Manage All Updates"
+#: build/1.0.0/index.js:1310
+msgid "Website Content"
 msgstr ""
 
 #: build/1.0.0/index.js:1
-msgid "WordPress Core"
+#: build/1.0.0/index.js:1311
+msgid "Create, manage & sort your story."
 msgstr ""
 
 #: build/1.0.0/index.js:1
-msgid "Plugins"
+#: build/1.0.0/index.js:1315
+#: build/1.0.0/index.js:15757
+msgid "Blog"
 msgstr ""
 
 #: build/1.0.0/index.js:1
-msgid "Themes"
+#: build/1.0.0/index.js:1316
+msgid "New Post"
 msgstr ""
 
 #: build/1.0.0/index.js:1
-msgid "Automatic Updates"
+#: build/1.0.0/index.js:1320
+msgid "Write a new blog post."
 msgstr ""
 
 #: build/1.0.0/index.js:1
-msgid "Keeping automatic updates on ensures timely security fixes and the latest features."
+#: build/1.0.0/index.js:1324
+msgid "Pages"
 msgstr ""
 
 #: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:1325
+msgid "New Page"
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:1329
+msgid "Add fresh pages to your website."
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:1333
+msgid "Categories"
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:1334
+msgid "Manage Categories"
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:1338
+msgid "Organize existing content into categories."
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:1933
+msgid "Manage common settings for your website."
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:1944
+msgid "General Settings"
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:1950
+msgid "Manage common settings for your website"
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:1972
+msgid "Features"
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:1973
+msgid "Customize the available features as you manage your website."
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:2000
+#: build/1.0.0/index.js:2139
+#: build/1.0.0/index.js:15305
+#: build/1.0.0/index.js:15306
+msgid "Performance"
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:2006
+msgid "Optimize your website by managing cache and performance settings"
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:2059
+msgid "Web WordPress Plugin"
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:2186
+msgid "There's nothing here!"
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:2279
+msgid "WonderBlocks Enabled"
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:2283
+msgid "WonderBlocks Disabled"
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:2291
+msgid "Create new content to see WonderBlocks in action."
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:2295
+msgid "WonderBlocks will no longer display."
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:2347
+msgid "WonderBlocks provides a library of customizable block patterns and page templates."
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:2316
+msgid "Sorry, that is not allowed."
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:2317
+msgid "This feature cannot currently be modified."
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:2358
+#: build/1.0.0/index.js:2555
+#: build/1.0.0/index.js:14919
+#: build/1.0.0/index.js:16154
+#: build/1.0.0/index.js:17074
+msgid "Oops! Something went wrong. Please try again."
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:2476
+msgid "Site Status"
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:2536
+msgid "Coming soon page"
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:2537
+msgid "Your Coming Soon page lets you hide your site from visitors while you make the magic happen."
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:14737
+msgid "Disable comments for older posts"
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:14756
+msgid "Comments setting saved "
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:14763
+msgid "Comments on posts are disabled after "
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:14765
+#: build/1.0.0/index.js:14774
 msgid " day."
 msgid_plural " days."
 msgstr[0] ""
 msgstr[1] ""
 
 #: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:14772
+msgid "Close comments after "
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:14839
+msgid "Comments setting saved."
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:14845
+msgid "Posts will display "
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:14847
 msgid " comment at a time."
 msgid_plural " comments at a time."
 msgstr[0] ""
 msgstr[1] ""
 
 #: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:14887
+msgid "Display "
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:14888
+msgid " comments per page."
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:14910
+msgid "Comments"
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:14911
+msgid "Comments allow visitors to provide feedback and respond to your posts or pages."
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:14967
+msgid "BigRock Hosting"
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:14968
+msgid "Access & manage your BigRock account."
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:14972
+#: build/1.0.0/index.js:14973
+msgid "Manage BigRock Account"
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:14985
+msgid "Manage BigRock account products, options and billing."
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:15065
+msgid "Manage your website settings and content."
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:15291
+msgid "Settings and Performance"
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:15292
+msgid "Customize & fine-tune your site."
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:15296
+msgid "Manage Settings"
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:15301
+msgid "Manage your site settings. You can ajdust automatic updates, comments, revisions and more."
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:15310
+msgid "Manage site performance and caching settings as well as clear the site cache."
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:15315
+msgid "Visit Marketplace"
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:15319
+msgid "Add site services, themes or plugins from the marketplace."
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:15722
+msgid "Chat"
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:15723
+#: build/1.0.0/index.js:15735
+msgid "For any sales or support assistance, please visit: <a href=\"https://www.bigrock.in/support/contact-us\">https://www.bigrock.in/support/contact-us</a>"
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:15728
+msgid "Live Chat"
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:15734
+#: build/1.0.0/index.js:15740
+msgid "Call Us"
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:15745
+msgid "Knowledge Base"
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:15746
+msgid "Our experts share their experience and well-organized guides to common questions."
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:15751
+msgid "Find Answers"
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:15758
+msgid "Learn best practices, get insider tips and find the latest news about BigRock."
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:15763
+msgid "Learn Stuff"
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:15787
+msgid "Explore our marketplace plugins and services."
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:15788
+msgid "Oops, there was an error loading the marketplace, please try again later."
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:15789
+msgid "Sorry, no marketplace items. Please, try again later."
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:15790
+msgid "Load More"
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:15793
+msgid "Oops! Something Went Wrong"
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:15797
+msgid "An error occurred while loading the content. Please try again later."
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:15998
+msgid "Post revision setting saved "
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:16004
+msgid "Posts will save  "
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:16006
+msgid " revision."
+msgid_plural " revisions."
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:16049
+msgid "Number of revisions posts can save "
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:16012
+msgid "Saving drafts and updating published content creates revisions. Make changes with confidence, knowing you can take "
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:16014
+msgid " step back."
+msgid_plural " steps back."
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:16075
+msgid "Trash setting saved "
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:16081
+#: build/1.0.0/index.js:16121
+msgid "The trash will automatically empty every "
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:16083
+#: build/1.0.0/index.js:16123
+msgid " week."
+msgid_plural " weeks."
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:16119
+msgid "Trash emptying frequency "
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:16145
+msgid "Content Options"
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:16146
+msgid "Controls for content revisions and how often to empty the trash."
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:16483
 msgid "Oh No, An Error!"
 msgstr ""
 
 #: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:16488
 msgid "You found an error, please refresh the page and try again!"
 msgstr ""
 
 #: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:16494
 msgid "If the error persists, please contact support."
 msgstr ""
 
 #: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:16504
 msgid " Error code: "
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:16881
+msgid "Manage All Updates"
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:16936
+msgid "WordPress Core"
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:16992
+msgid "Plugins"
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:17049
+msgid "Themes"
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:17064
+msgid "Automatic Updates"
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:17065
+msgid "Keeping automatic updates on ensures timely security fixes and the latest features."
+msgstr ""
+
+#: build/1.0.0/index.js:1
+#: build/1.0.0/index.js:17322
+msgid "We are available 24/7 to help answer questions and solve your problems."
+msgstr ""
+
+#: build/1.0.0/index.js:385
+msgid "View Store"
+msgstr ""
+
+#: build/1.0.0/index.js:2445
+msgid "Coming soon activated"
+msgstr ""
+
+#: build/1.0.0/index.js:2446
+msgid "Coming soon deactivated"
+msgstr ""
+
+#: build/1.0.0/index.js:2451
+msgid "Coming soon page is active. Site requires login."
+msgstr ""
+
+#: build/1.0.0/index.js:2455
+msgid "Coming soon page is not active. Site is live to visitors."
+msgstr ""
+
+#: build/1.0.0/index.js:2492
+msgid "Turn off your \"Coming Soon\" page when you are ready to launch your website."
+msgstr ""
+
+#: build/1.0.0/index.js:2496
+msgid "Turn on your \"Coming Soon\" page when you need to make major changes to your website."
+msgstr ""
+
+#: build/1.0.0/index.js:14696
+msgid "Disabled old post comments"
+msgstr ""
+
+#: build/1.0.0/index.js:14697
+msgid "Enabled old post comments"
+msgstr ""
+
+#: build/1.0.0/index.js:14702
+msgid "Comments on old posts are disabled."
+msgstr ""
+
+#: build/1.0.0/index.js:14703
+msgid "Comments are allowed on old posts."
+msgstr ""
+
+#: build/1.0.0/index.js:16819
+msgid "Enabled All auto-updates"
+msgstr ""
+
+#: build/1.0.0/index.js:16820
+msgid "Disabled All auto-updates"
+msgstr ""
+
+#: build/1.0.0/index.js:16824
+msgid "Everything will automatically update."
+msgstr ""
+
+#: build/1.0.0/index.js:16825
+msgid "Custom auto-update settings."
+msgstr ""
+
+#: build/1.0.0/index.js:16896
+msgid "Enabled Core auto-updates"
+msgstr ""
+
+#: build/1.0.0/index.js:16897
+msgid "Disabled Core auto-updates"
+msgstr ""
+
+#: build/1.0.0/index.js:16901
+msgid "WordPress will automatically update."
+msgstr ""
+
+#: build/1.0.0/index.js:16902
+msgid "WordPress must be manually updated."
+msgstr ""
+
+#: build/1.0.0/index.js:16952
+msgid "Enabled Plugins auto-update"
+msgstr ""
+
+#: build/1.0.0/index.js:16953
+msgid "Disabled Plugins auto-update"
+msgstr ""
+
+#: build/1.0.0/index.js:16957
+msgid "All plugins will automatically update."
+msgstr ""
+
+#: build/1.0.0/index.js:16958
+msgid "Each plugin must be manually updated."
+msgstr ""
+
+#: build/1.0.0/index.js:17008
+msgid "Enabled Themes auto-update"
+msgstr ""
+
+#: build/1.0.0/index.js:17009
+msgid "Disabled Themes auto-update"
+msgstr ""
+
+#: build/1.0.0/index.js:17014
+msgid "All themes will automatically update."
+msgstr ""
+
+#: build/1.0.0/index.js:17015
+msgid "Each theme must be manually updated."
 msgstr ""
