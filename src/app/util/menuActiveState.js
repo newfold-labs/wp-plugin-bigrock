@@ -9,27 +9,27 @@ if (typeof window !== 'undefined') {
 			const hash = window.location.hash.replace('#', '') || '/home';
 			
 			// Remove all current classes from submenu items
-			const submenuItems = document.querySelectorAll('#toplevel_page_bigrock .wp-submenu li');
+			const submenuItems = document.querySelectorAll('#toplevel_page_bigrock_in .wp-submenu li');
 			submenuItems.forEach(item => item.classList.remove('current'));
 			
 			// Map hash to menu item
 			const menuMap = {
-				'/home': 'bigrock#/home',
-				'/marketplace': 'bigrock#/marketplace',
-				'marketplace/services': 'bigrock#/marketplace',
-				'marketplace/featured': 'bigrock#/marketplace',
-				'marketplace/ecommerce': 'bigrock#/marketplace',
-				'marketplace/seo': 'bigrock#/marketplace',
-				'marketplace/themes': 'bigrock#/marketplace',
-				'marketplace/all': 'bigrock#/marketplace',
-				'/settings': 'bigrock#/settings',
-				'/settings/performance': 'bigrock#/settings',
-				'/help': 'bigrock#/help'
+				'/home': 'bigrock_in#/home',
+				'/marketplace': 'bigrock_in#/marketplace',
+				'marketplace/services': 'bigrock_in#/marketplace',
+				'marketplace/featured': 'bigrock_in#/marketplace',
+				'marketplace/ecommerce': 'bigrock_in#/marketplace',
+				'marketplace/seo': 'bigrock_in#/marketplace',
+				'marketplace/themes': 'bigrock_in#/marketplace',
+				'marketplace/all': 'bigrock_in#/marketplace',
+				'/settings': 'bigrock_in#/settings',
+				'/settings/performance': 'bigrock_in#/settings',
+				'/help': 'bigrock_in#/help'
 			};
 			
 			// Find the matching menu item and add current class
 			const menuSlug = menuMap[hash] || menuMap['/home'];
-			const targetLink = document.querySelector(`#toplevel_page_bigrock .wp-submenu li a[href*="${menuSlug}"]`);
+			const targetLink = document.querySelector(`#toplevel_page_bigrock_in .wp-submenu li a[href*="${menuSlug}"]`);
 			
 			if (targetLink && targetLink.parentElement) {
 				targetLink.parentElement.classList.add('current');
@@ -43,7 +43,7 @@ if (typeof window !== 'undefined') {
 		window.addEventListener('hashchange', updateActiveMenuItem);
 		
 		// Update when clicking submenu items
-		const submenuLinks = document.querySelectorAll(`#toplevel_page_bigrock .wp-submenu a`);
+		const submenuLinks = document.querySelectorAll(`#toplevel_page_bigrock_in .wp-submenu a`);
 		submenuLinks.forEach(link => {
 			link.addEventListener('click', () => {
 				setTimeout(updateActiveMenuItem, 100);

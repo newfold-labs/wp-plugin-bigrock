@@ -41,9 +41,9 @@ $bigrock_module_container->set(
 		function () {
 			return new Plugin(
 				array(
-					'id'           => get_option( 'mm_brand', 'bigrock' ),
+					'id'           => get_option( 'mm_brand', 'bigrock_in' ),
 					'file'         => BIGROCK_PLUGIN_FILE,
-					'brand'        => get_option( 'mm_brand', 'bigrock' ),
+					'brand'        => get_option( 'mm_brand', 'bigrock_in' ),
 					'install_date' => get_option( 'bigrock_plugin_install_date' ),
 				)
 			);

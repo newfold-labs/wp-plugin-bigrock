@@ -20,7 +20,7 @@ const help = [
 		),
 		icon: false,
 		cta: __( 'Call Us', 'wp-plugin-bigrock' ),
-		url: 'https://www.bigrock.in/help',
+		url: 'https://www.bigrock.in/support/contact-us',
 	},
 	{
 		name: 'kb',
