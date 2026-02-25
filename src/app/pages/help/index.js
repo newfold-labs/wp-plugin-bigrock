@@ -56,7 +56,7 @@ const Help = () => {
 						<QuestionMarkCircleIcon className="nfd-w-8 nfd-h-8" />
 						{__('Help', 'wp-plugin-bigrock')}
 					</Title>
-					<span>{__('We are available on chat 24/7 to help answer questions and solve your problem', 'wp-plugin-bigrock')}</span>
+					<span>{__('We are available 24/7 to help answer questions and solve your problem', 'wp-plugin-bigrock')}</span>
 				</Container.Header>
 
 				<Container.Block>

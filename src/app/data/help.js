@@ -3,7 +3,7 @@ const help = [
 		name: 'chat',
 		title: __( 'Chat', 'wp-plugin-bigrock' ),
 		description: __(
-			'For any sales or support assistance, please visit: <a href="https://www.bigrock.in/support/contact-us">https://www.bigrock.in/support/contact-us</a>',
+			'We are available on chat 24/7 to help answer questions and solve your problem',
 			'wp-plugin-bigrock'
 		),
 		icon: false,
