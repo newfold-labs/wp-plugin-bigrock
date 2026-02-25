@@ -262,7 +262,7 @@ msgid "Chat"
 msgstr ""
 
 #: build/1.0.0/index.js:1
-msgid "For any sales or support assistance, please visit: <a href=\"https://www.bigrock.in/support/contact-us\">https://www.bigrock.in/support/contact-us</a>"
+msgid "We are available on chat 24/7 to help answer questions and solve your problem"
 msgstr ""
 
 #: build/1.0.0/index.js:1
@@ -271,6 +271,10 @@ msgstr ""
 
 #: build/1.0.0/index.js:1
 msgid "Call Us"
+msgstr ""
+
+#: build/1.0.0/index.js:1
+msgid "For any sales or support assistance, please visit: <a href=\"https://www.bigrock.in/support/contact-us\">https://www.bigrock.in/support/contact-us</a>"
 msgstr ""
 
 #: build/1.0.0/index.js:1
