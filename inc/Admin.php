@@ -26,7 +26,7 @@ final class Admin {
 		\add_action( 'admin_head', array( __CLASS__, 'admin_nav_style' ) );
 		/* Add runtime for data store */
 		\add_filter( 'newfold_runtime', array( __CLASS__, 'add_to_runtime' ) );
-		if ( isset( $_GET['page'] ) && strpos( filter_input( INPUT_GET, 'page', FILTER_UNSAFE_RAW ), 'bigrock' ) >= 0 ) { // phpcs:ignore
+		if ( isset( $_GET['page'] ) && strpos( filter_input( INPUT_GET, 'page', FILTER_UNSAFE_RAW ), 'bigrock_in' ) >= 0 ) { // phpcs:ignore
 			\add_action( 'admin_footer_text', array( __CLASS__, 'add_brand_to_admin_footer' ) );
 		}
 	}
@@ -52,10 +52,10 @@ final class Admin {
 	 */
 	public static function subpages() {
 		return array(
-			'bigrock#/home'        => __( 'Home', 'wp-plugin-bigrock' ),
-			'bigrock#/marketplace' => __( 'Marketplace', 'wp-plugin-bigrock' ),
-			'bigrock#/settings'    => __( 'Settings', 'wp-plugin-bigrock' ),
-			'bigrock#/help'        => __( 'Help', 'wp-plugin-bigrock' ),
+			'bigrock_in#/home'        => __( 'Home', 'wp-plugin-bigrock' ),
+			'bigrock_in#/marketplace' => __( 'Marketplace', 'wp-plugin-bigrock' ),
+			'bigrock_in#/settings'    => __( 'Settings', 'wp-plugin-bigrock' ),
+			'bigrock_in#/help'        => __( 'Help', 'wp-plugin-bigrock' ),
 		);
 	}
 
@@ -65,18 +65,18 @@ final class Admin {
 	 */
 	public static function admin_nav_style() {
 		echo '<style>';
-		echo 'li#toplevel_page_bigrock a.toplevel_page_bigrock div.wp-menu-image.svg { transition: fill 0.15s; background-size: 24px auto !important; }';
-		echo 'li#toplevel_page_bigrock a.toplevel_page_bigrock div.wp-menu-name {
+		echo 'li#toplevel_page_bigrock_in a.toplevel_page_bigrock_in div.wp-menu-image.svg { transition: fill 0.15s; background-size: 24px auto !important; }';
+		echo 'li#toplevel_page_bigrock_in a.toplevel_page_bigrock_in div.wp-menu-name {
 		    padding: 8px 2px 8px 29px;
 			font-size: 14px;
 		}';
-		echo 'li#toplevel_page_bigrock a.toplevel_page_bigrock div.wp-menu-image img {
+		echo 'li#toplevel_page_bigrock_in a.toplevel_page_bigrock_in div.wp-menu-image img {
 			padding: 6px 8px 0px;
 			opacity: 1 !important;
 			display: block;
 		}';
-		echo 'ul#adminmenu a.toplevel_page_bigrock.wp-has-current-submenu:after, ul#adminmenu>li#toplevel_page_bigrock.current>a.current:after { border-right-color: #fff !important; }';
-		echo 'li#toplevel_page_bigrock > ul > li.wp-first-item { display: none !important; }';
+		echo 'ul#adminmenu a.toplevel_page_bigrock_in.wp-has-current-submenu:after, ul#adminmenu>li#toplevel_page_bigrock_in.current>a.current:after { border-right-color: #fff !important; }';
+		echo 'li#toplevel_page_bigrock_in > ul > li.wp-first-item { display: none !important; }';
 		echo '#wp-toolbar #wp-admin-bar-bigrock-coming_soon .ab-item { padding: 0; }';
 		echo '</style>';
 	}
@@ -94,7 +94,7 @@ final class Admin {
 			__( 'BigRock', 'wp-plugin-bigrock' ),
 			__( 'BigRock', 'wp-plugin-bigrock' ),
 			'manage_options',
-			'bigrock',
+			'bigrock_in',
 			array( __CLASS__, 'render' ),
 			$iconurl,
 			0
@@ -103,7 +103,7 @@ final class Admin {
 		// Add subpages to the menu
 		foreach ( self::subpages() as $route => $title ) {
 			\add_submenu_page(
-				'bigrock',
+				'bigrock_in',
 				$title,
 				$title,
 				'manage_options',
@@ -126,7 +126,7 @@ final class Admin {
 			echo '<div id="wppbr-app" class="wppbr wppbr_app"></div>' . PHP_EOL;
 			// Render bootstrap containers for modules that need portals
 			// Only enabled features get their containers rendered
-			$features_with_portals = array( 'performance' );
+			$features_with_portals = array( 'performance', 'coming-soon' );
 			foreach ( $features_with_portals as $feature ) {
 				if ( function_exists( 'NewfoldLabs\WP\Module\Features\isEnabled' ) &&
 					\NewfoldLabs\WP\Module\Features\isEnabled( $feature ) ) {
