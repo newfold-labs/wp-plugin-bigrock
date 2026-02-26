@@ -154,7 +154,7 @@ export const SideNav = () => {
 			</SidebarNavigation>
 			<NewfoldNotifications
 				constants={ {
-					context: 'bigrock-app-nav',
+					context: 'bigrock_in-app-nav',
 					page: hashedPath,
 				} }
 				methods={ {
@@ -310,7 +310,7 @@ export const TopBarNav = () => {
 				<div className="nfd-hidden">
 					<NewfoldNotifications
 						constants={ {
-							context: 'bigrock-app-nav',
+							context: 'bigrock_in-app-nav',
 							page: hashedPath,
 						} }
 						methods={ {

@@ -9,7 +9,7 @@ module.exports = defineConfig({
     wpPassword: 'password',
     wpVersion,
     phpVersion,
-    pluginId: 'bigrock',
+    pluginId: 'bigrock_in',
     appId: 'wppbr',
     pluginSlug: 'wp-plugin-bigrock',
   },
