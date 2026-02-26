@@ -64,7 +64,7 @@ const AppBody = ( props ) => {
 
 			<NewfoldNotifications
 				constants={{
-					context: 'bigrock-plugin',
+					context: 'bigrock_in-plugin',
 					page: hashedPath,
 				}}
 				methods={{
