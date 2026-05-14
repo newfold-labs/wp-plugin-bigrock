@@ -10,10 +10,18 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.event_name == 'pull_request' && github.head_ref || github.sha }}
   cancel-in-progress: true
 
+# Disable permissions for all available scopes by default.
+# Any needed permissions should be configured at the job level.
+permissions: {}
+
 jobs:
   test:
     name: Run Cypress Beta Only Tests
     runs-on: ubuntu-latest
+    permissions:
+      actions: write # Required for GitHub-hosted dependency caching actions used in the workflow.
+      artifact-metadata: write # Required for actions/upload-artifact on test failures.
+      contents: read # Required to checkout and build the plugin for Cypress and wp-env.
     timeout-minutes: 45
 
     steps:
