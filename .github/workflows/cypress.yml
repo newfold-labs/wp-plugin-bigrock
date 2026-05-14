@@ -33,6 +33,7 @@ jobs:
       actions: write # Required for actions/cache to restore and save workflow caches.
       artifact-metadata: write # Required for actions/upload-artifact when failures upload screenshots.
       contents: read # Required to checkout the repo and run Cypress against wp-env builds.
+    timeout-minutes: 45
     steps:
 
       - name: Checkout
