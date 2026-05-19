@@ -24,7 +24,6 @@ jobs:
     name: Run PHP Code Sniffer
     runs-on: ubuntu-latest
     permissions:
-      actions: write # Required for actions/cache to restore and save Composer caches when PHP files change.
       contents: read # Required for checkout (private repo); get-diff-action uses the checked-out repo for git diff.
       pull-requests: read # Required on pull_request events so workflows can locate the comparison range for affected files when needed.
     timeout-minutes: 30

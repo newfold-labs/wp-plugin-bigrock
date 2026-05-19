@@ -25,7 +25,6 @@ jobs:
     name: On Push
     runs-on: ubuntu-latest
     permissions:
-      actions: write # Required for actions/cache to restore and save workflow caches.
       artifact-metadata: write # Required for actions/upload-artifact to register workflow artifacts.
       contents: read # Required to clone the repo for the build artifact.
     timeout-minutes: 30
