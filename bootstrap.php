@@ -57,7 +57,7 @@ add_filter(
 	function ( $args, $default_args ) {
 		$args = wp_parse_args(
 			array(
-				'admin_app_url'       => admin_url( 'admin.php?page=bigrock#/home' ),
+				'admin_app_url'       => admin_url( 'admin.php?page=bigrock_in#/home' ),
 				'template_h1'         => __( 'Coming Soon!', 'wp-plugin-bigrock' ),
 				'template_h2'         => __( 'A New WordPress Site', 'wp-plugin-bigrock' ),
 				'template_footer_t'   => sprintf(
@@ -81,7 +81,7 @@ add_filter(
 					__( 'Your site is currently displaying a %1$scoming soon page%2$s. Once you are ready, %3$slaunch your site%4$s.', 'wp-plugin-bigrock' ),
 					'<a href="' . get_home_url() . '?preview=coming_soon" title="' . __( 'Preview the coming soon landing page', 'wp-plugin-bigrock' ) . '">',
 					'</a>',
-					'<a href="' . esc_url( admin_url( 'admin.php?page=bigrock#/home' ) ) . '">',
+					'<a href="' . esc_url( admin_url( 'admin.php?page=bigrock_in#/home' ) ) . '">',
 					'</a>'
 				),
 				'template_styles'     => esc_url( BIGROCK_PLUGIN_URL . 'assets/styles/coming-soon.css' ),
