@@ -117,7 +117,7 @@ jobs:
           command: npx wp-env start --debug
 
       - name: Run Cypress Tests
-        run: npm run test:e2e -- --browser chrome
+        run: npm run test:e2e -- --browser electron
 
       - name: Store screenshots of test failures
         if: ${{ failure() }}
