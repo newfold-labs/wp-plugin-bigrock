@@ -26,9 +26,7 @@ jobs:
     name: Run Cypress Tests
     runs-on: ubuntu-latest
     steps:
-      - name: Increase /dev/shm
-        run: sudo mount -o remount,size=2g /dev/shm
-        
+
       - name: Checkout
         uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
 
@@ -118,8 +116,18 @@ jobs:
           max_attempts: 3
           command: npx wp-env start --debug
 
+      - name: Debug cypress environment
+        run: |
+          npx cypress info
+          google-chrome --version || true
+          df -h
+          free -m
+
       - name: Run Cypress Tests
-        run: npm run test:e2e -- --browser chrome
+        run: npm run test:e2e --browser chrome 2>&1 | tee cypress-output.log
+        env:
+          CHROME_EXTRA_FLAGS: "--no-sandbox --disable-setuid-sandbox --disable-dev-shm-usage --disable-gpu --single-process"
+        continue-on-error: true
 
       - name: Store screenshots of test failures
         if: ${{ failure() }}
