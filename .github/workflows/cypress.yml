@@ -124,7 +124,7 @@ jobs:
           free -m
 
       - name: Run Cypress Tests
-        run: npm run test:e2e --browser chrome 2>&1 | tee cypress-output.log
+        run: npm run test:e2e -- --browser chrome 2>&1 | tee cypress-output.log
         env:
           CHROME_EXTRA_FLAGS: "--no-sandbox --disable-setuid-sandbox --disable-dev-shm-usage --disable-gpu --single-process"
         continue-on-error: true
