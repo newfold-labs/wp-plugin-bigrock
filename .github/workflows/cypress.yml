@@ -24,9 +24,11 @@ concurrency:
 jobs:
   test:
     name: Run Cypress Tests
-    runs-on: ubuntu-latest-4-cores
+    runs-on: ubuntu-latest
     steps:
-
+      - name: Increase /dev/shm
+        run: sudo mount -o remount,size=2g /dev/shm
+        
       - name: Checkout
         uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
 
