@@ -15,7 +15,7 @@ module.exports = defineConfig({
   },
   fixturesFolder: 'tests/cypress/fixtures',
   screenshotsFolder: 'tests/cypress/screenshots',
-  video: true,
+  video: false,
   videosFolder: 'tests/cypress/videos',
   chromeWebSecurity: false,
   viewportWidth: 1024,
@@ -87,9 +87,13 @@ module.exports = defineConfig({
       'vendor/newfold-labs/wp-module-coming-soon/tests/cypress/integration/', // until ecommerce module is added use the local coming soon test instead
     ],
     experimentalRunAllSpecs: true,
-  },
-  retries: 1,
-  experimentalMemoryManagement: true,
+    experimentalMemoryManagement: true,
+    numTestsKeptInMemory: 0,
+},
+  retries: {
+  runMode: 0,
+  openMode: 0,
+},
 })
 
 // Check against plugin support at https://wordpress.org/plugins/woocommerce/
