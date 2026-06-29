@@ -30,7 +30,7 @@ jobs:
           echo "PACKAGE=${REPO##*/}" >> $GITHUB_OUTPUT
 
       - name: Setup PHP
-        uses: shivammathur/setup-php@44454db4f0199b8b9685a5d763dc37cbf79108e1 # v2.36.0
+        uses: shivammathur/setup-php@8e20342312c5afc44fe038f41eb7ae1e9fdd64ee # v2.37.0
         with:
           php-version: '8.1'
           coverage: none
