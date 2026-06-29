@@ -128,7 +128,7 @@
             "version": "1.2.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/newfold-labs/container.git",
+                "url": "git@github.com:newfold-labs/container.git",
                 "reference": "f7d13b995948ca44b3d4af75c5936099c4a6bc5c"
             },
             "dist": {
@@ -156,9 +156,6 @@
                 }
             ],
             "description": "A lightweight, PHP 7.0+ compatible, PSR-11 dependency injection container.",
-            "support": {
-                "source": "https://github.com/newfold-labs/container/tree/1.2.4"
-            },
             "time": "2026-03-06T22:45:10+00:00"
         },
         {
@@ -166,7 +163,7 @@
             "version": "1.0.14",
             "source": {
                 "type": "git",
-                "url": "https://github.com/newfold-labs/wp-module-activation.git",
+                "url": "git@github.com:newfold-labs/wp-module-activation.git",
                 "reference": "3dc9d7aaa508e9351166868e8d264a61b95974b7"
             },
             "dist": {
@@ -224,10 +221,6 @@
                 }
             ],
             "description": "A Module for handling WordPress brand plugins activations",
-            "support": {
-                "source": "https://github.com/newfold-labs/wp-module-activation/tree/1.0.14",
-                "issues": "https://github.com/newfold-labs/wp-module-activation/issues"
-            },
             "time": "2026-03-26T13:06:44+00:00"
         },
         {
@@ -235,7 +228,7 @@
             "version": "1.4.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/newfold-labs/wp-module-atomic.git",
+                "url": "git@github.com:newfold-labs/wp-module-atomic.git",
                 "reference": "e09b1e735462b10d4eb84563ffae8affe898e32f"
             },
             "dist": {
@@ -288,10 +281,6 @@
                 }
             ],
             "description": "A module to customize a brand plugin for wp cloud environments.",
-            "support": {
-                "source": "https://github.com/newfold-labs/wp-module-atomic/tree/1.4.1",
-                "issues": "https://github.com/newfold-labs/wp-module-atomic/issues"
-            },
             "time": "2026-02-05T07:11:06+00:00"
         },
         {
@@ -299,7 +288,7 @@
             "version": "2.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/newfold-labs/wp-module-coming-soon.git",
+                "url": "git@github.com:newfold-labs/wp-module-coming-soon.git",
                 "reference": "8d70bf5dec7593126f91dba99a0d0ce0257ff9f1"
             },
             "dist": {
@@ -383,10 +372,6 @@
                 }
             ],
             "description": "Coming Soon module for WordPress sites.",
-            "support": {
-                "source": "https://github.com/newfold-labs/wp-module-coming-soon/tree/2.2.0",
-                "issues": "https://github.com/newfold-labs/wp-module-coming-soon/issues"
-            },
             "time": "2026-01-06T19:45:07+00:00"
         },
         {
@@ -394,7 +379,7 @@
             "version": "1.0.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/newfold-labs/wp-module-context.git",
+                "url": "git@github.com:newfold-labs/wp-module-context.git",
                 "reference": "1c6782114a57fbe6aadc3fe42b585e5f5a48a443"
             },
             "dist": {
@@ -448,10 +433,6 @@
                 }
             ],
             "description": "Newfold module to determine context for various brands and platforms.",
-            "support": {
-                "source": "https://github.com/newfold-labs/wp-module-context/tree/1.0.3",
-                "issues": "https://github.com/newfold-labs/wp-module-context/issues"
-            },
             "time": "2026-02-06T13:36:08+00:00"
         },
         {
@@ -459,7 +440,7 @@
             "version": "2.9.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/newfold-labs/wp-module-data.git",
+                "url": "git@github.com:newfold-labs/wp-module-data.git",
                 "reference": "7eaa7d783fa04bca4382a9b479c73ff3be7d11ff"
             },
             "dist": {
@@ -554,10 +535,6 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Newfold Data Module",
-            "support": {
-                "source": "https://github.com/newfold-labs/wp-module-data/tree/2.9.1",
-                "issues": "https://github.com/newfold-labs/wp-module-data/issues"
-            },
             "time": "2025-12-12T19:08:04+00:00"
         },
         {
@@ -565,7 +542,7 @@
             "version": "1.5.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/newfold-labs/wp-module-deactivation.git",
+                "url": "git@github.com:newfold-labs/wp-module-deactivation.git",
                 "reference": "a56e83510817e42113a47c609ad3bb8b60478d3e"
             },
             "dist": {
@@ -648,10 +625,6 @@
                 }
             ],
             "description": "A Module for handling WordPress brand plugins and modules deactivations",
-            "support": {
-                "source": "https://github.com/newfold-labs/wp-module-deactivation/tree/1.5.2",
-                "issues": "https://github.com/newfold-labs/wp-module-deactivation/issues"
-            },
             "time": "2025-06-30T22:01:30+00:00"
         },
         {
@@ -659,7 +632,7 @@
             "version": "1.5.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/newfold-labs/wp-module-features.git",
+                "url": "git@github.com:newfold-labs/wp-module-features.git",
                 "reference": "c88f1aec2b87996186a0a8e70fd6100b966079d8"
             },
             "dist": {
@@ -747,10 +720,6 @@
                 }
             ],
             "description": "A module for providing an interface for features.",
-            "support": {
-                "source": "https://github.com/newfold-labs/wp-module-features/tree/1.5.1",
-                "issues": "https://github.com/newfold-labs/wp-module-features/issues"
-            },
             "time": "2025-07-18T17:05:47+00:00"
         },
         {
@@ -758,7 +727,7 @@
             "version": "1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/newfold-labs/wp-module-htaccess.git",
+                "url": "git@github.com:newfold-labs/wp-module-htaccess.git",
                 "reference": "8773291b87b4062f36c31697cdc82d18797b9b95"
             },
             "dist": {
@@ -826,24 +795,20 @@
                 }
             ],
             "description": "A centralized Newfold module for managing .htaccess files across Newfold brand plugins. It provides a canonical ruleset, validates syntax, prevents duplicate or conflicting directives, maintains backups, and exposes a consumer API for other modules to safely register their own rewrite fragments.",
-            "support": {
-                "source": "https://github.com/newfold-labs/wp-module-htaccess/tree/1.0.1",
-                "issues": "https://github.com/newfold-labs/wp-module-htaccess/issues"
-            },
             "time": "2026-02-06T16:41:21+00:00"
         },
         {
             "name": "newfold-labs/wp-module-installer",
-            "version": "1.7.3",
+            "version": "1.7.5",
             "source": {
                 "type": "git",
-                "url": "https://github.com/newfold-labs/wp-module-installer.git",
-                "reference": "6c0471fc9c0a078dacc0628ee37362e8d51aa362"
+                "url": "git@github.com:newfold-labs/wp-module-installer.git",
+                "reference": "5e93e1920828b8a0f73f56e3c5891679ded407fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/newfold-labs/wp-module-installer/zipball/6c0471fc9c0a078dacc0628ee37362e8d51aa362",
-                "reference": "6c0471fc9c0a078dacc0628ee37362e8d51aa362",
+                "url": "https://api.github.com/repos/newfold-labs/wp-module-installer/zipball/5e93e1920828b8a0f73f56e3c5891679ded407fb",
+                "reference": "5e93e1920828b8a0f73f56e3c5891679ded407fb",
                 "shasum": ""
             },
             "require": {
@@ -852,7 +817,7 @@
             "require-dev": {
                 "johnpbloch/wordpress": "6.9.4",
                 "lucatume/wp-browser": "*",
-                "newfold-labs/wp-php-standards": "^1.2.5",
+                "newfold-labs/wp-php-standards": "^1.2.6",
                 "phpunit/phpcov": "*",
                 "wp-cli/i18n-command": "^2.7",
                 "wp-cli/wp-cli": "^2.12"
@@ -891,10 +856,10 @@
                     "vendor/bin/wp i18n update-po ./languages/wp-module-installer.pot ./languages"
                 ],
                 "i18n-php": [
-                    "vendor/bin/wp i18n make-php ./languages"
+                    "vendor/bin/wp i18n make-php ./languages --pretty-print"
                 ],
                 "i18n-json": [
-                    "rm -f languages/*.json && vendor/bin/wp i18n make-json ./languages --no-purge --pretty-print"
+                    "rm -f languages/*.json && vendor/bin/wp i18n make-json ./languages --pretty-print"
                 ],
                 "lint": [
                     "vendor/bin/phpcs --standard=phpcs.xml -s ."
@@ -918,18 +883,14 @@
                 }
             ],
             "description": "An installer for WordPress plugins and themes.",
-            "support": {
-                "source": "https://github.com/newfold-labs/wp-module-installer/tree/1.7.3",
-                "issues": "https://github.com/newfold-labs/wp-module-installer/issues"
-            },
-            "time": "2026-03-23T19:25:51+00:00"
+            "time": "2026-06-23T13:21:37+00:00"
         },
         {
             "name": "newfold-labs/wp-module-link-tracker",
             "version": "1.1.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/newfold-labs/wp-module-link-tracker.git",
+                "url": "git@github.com:newfold-labs/wp-module-link-tracker.git",
                 "reference": "600dd65f36272491ba301b3b9cac5552c3a928d4"
             },
             "dist": {
@@ -991,10 +952,6 @@
                 }
             ],
             "description": "A WordPress module that adds tracking params",
-            "support": {
-                "source": "https://github.com/newfold-labs/wp-module-link-tracker/tree/1.1.4",
-                "issues": "https://github.com/newfold-labs/wp-module-link-tracker/issues"
-            },
             "time": "2025-09-22T18:57:13+00:00"
         },
         {
@@ -1002,7 +959,7 @@
             "version": "1.1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/newfold-labs/wp-module-loader.git",
+                "url": "git@github.com:newfold-labs/wp-module-loader.git",
                 "reference": "97de22d322f838edc26c1ac3969708a0902ef714"
             },
             "dist": {
@@ -1052,10 +1009,6 @@
                 }
             ],
             "description": "A module that handles registration and management of Newfold modules used within our WordPress plugins.",
-            "support": {
-                "source": "https://github.com/newfold-labs/wp-module-loader/tree/1.1.0",
-                "issues": "https://github.com/newfold-labs/wp-module-loader/issues"
-            },
             "time": "2026-02-05T21:09:56+00:00"
         },
         {
@@ -1063,7 +1016,7 @@
             "version": "3.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/newfold-labs/wp-module-marketplace.git",
+                "url": "git@github.com:newfold-labs/wp-module-marketplace.git",
                 "reference": "ed3e42ddc7b19815060d449cfc060d6e757af209"
             },
             "dist": {
@@ -1151,10 +1104,6 @@
                 }
             ],
             "description": "A module for rendering product data and interacting with the Hiive marketplace API.",
-            "support": {
-                "source": "https://github.com/newfold-labs/wp-module-marketplace/tree/3.2.0",
-                "issues": "https://github.com/newfold-labs/wp-module-marketplace/issues"
-            },
             "time": "2026-01-06T18:35:04+00:00"
         },
         {
@@ -1162,7 +1111,7 @@
             "version": "1.8.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/newfold-labs/wp-module-notifications.git",
+                "url": "git@github.com:newfold-labs/wp-module-notifications.git",
                 "reference": "4b3dc6c31623429a5d2ae7e96e2a8961d3ccf0fd"
             },
             "dist": {
@@ -1218,10 +1167,6 @@
                 }
             ],
             "description": "A module for managing Newfold in-site notifications.",
-            "support": {
-                "source": "https://github.com/newfold-labs/wp-module-notifications/tree/1.8.0",
-                "issues": "https://github.com/newfold-labs/wp-module-notifications/issues"
-            },
             "time": "2026-01-06T15:55:00+00:00"
         },
         {
@@ -1229,7 +1174,7 @@
             "version": "2.12.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/newfold-labs/wp-module-patterns.git",
+                "url": "git@github.com:newfold-labs/wp-module-patterns.git",
                 "reference": "9b6bd0acc92a3a5c1a0727b912b40903d488b7c0"
             },
             "dist": {
@@ -1314,24 +1259,20 @@
                 }
             ],
             "description": "WordPress Cloud Patterns",
-            "support": {
-                "source": "https://github.com/newfold-labs/wp-module-patterns/tree/2.12.0",
-                "issues": "https://github.com/newfold-labs/wp-module-patterns/issues"
-            },
             "time": "2026-01-08T15:11:05+00:00"
         },
         {
             "name": "newfold-labs/wp-module-performance",
-            "version": "3.7.12",
+            "version": "3.8.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/newfold-labs/wp-module-performance.git",
-                "reference": "845f2e8abe7aa94132522418e4256d7d3e3ada59"
+                "url": "git@github.com:newfold-labs/wp-module-performance.git",
+                "reference": "7656ad4dce2d66674b6e08075aa4429f135d55b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/newfold-labs/wp-module-performance/zipball/845f2e8abe7aa94132522418e4256d7d3e3ada59",
-                "reference": "845f2e8abe7aa94132522418e4256d7d3e3ada59",
+                "url": "https://api.github.com/repos/newfold-labs/wp-module-performance/zipball/7656ad4dce2d66674b6e08075aa4429f135d55b7",
+                "reference": "7656ad4dce2d66674b6e08075aa4429f135d55b7",
                 "shasum": ""
             },
             "require": {
@@ -1420,18 +1361,14 @@
                 }
             ],
             "description": "A module for managing caching functionality.",
-            "support": {
-                "source": "https://github.com/newfold-labs/wp-module-performance/tree/3.7.12",
-                "issues": "https://github.com/newfold-labs/wp-module-performance/issues"
-            },
-            "time": "2026-04-29T17:21:33+00:00"
+            "time": "2026-06-23T09:58:20+00:00"
         },
         {
             "name": "newfold-labs/wp-module-pls",
             "version": "1.1.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/newfold-labs/wp-module-pls.git",
+                "url": "git@github.com:newfold-labs/wp-module-pls.git",
                 "reference": "d92527f2e1f8537e18db3eed617f61c9a1eccf57"
             },
             "dist": {
@@ -1515,10 +1452,6 @@
                 }
             ],
             "description": "A Newfold module that handles license key provisioning, validation, and other lifecycle events for registered plugins using the PLS API via Hiive.",
-            "support": {
-                "source": "https://github.com/newfold-labs/wp-module-pls/tree/1.1.3",
-                "issues": "https://github.com/newfold-labs/wp-module-pls/issues"
-            },
             "time": "2026-02-06T15:35:21+00:00"
         },
         {
@@ -1526,7 +1459,7 @@
             "version": "1.2.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/newfold-labs/wp-module-runtime.git",
+                "url": "git@github.com:newfold-labs/wp-module-runtime.git",
                 "reference": "24dbcad176b1b59da785d98aaf3fc917b70c4079"
             },
             "dist": {
@@ -1577,10 +1510,6 @@
                 }
             ],
             "description": "Runtime for Newfold WP modules and plugins",
-            "support": {
-                "source": "https://github.com/newfold-labs/wp-module-runtime/tree/1.2.2",
-                "issues": "https://github.com/newfold-labs/wp-module-runtime/issues"
-            },
             "time": "2026-02-10T22:24:28+00:00"
         },
         {
@@ -1588,7 +1517,7 @@
             "version": "1.1.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/newfold-labs/wp-module-secure-passwords.git",
+                "url": "git@github.com:newfold-labs/wp-module-secure-passwords.git",
                 "reference": "83639189ef6cd21894ee8119b9b330c3da50baa4"
             },
             "dist": {
@@ -1634,10 +1563,6 @@
                 }
             ],
             "description": "Prevents passwords exposed in data breaches from being used and encourages better password hygiene.",
-            "support": {
-                "source": "https://github.com/newfold-labs/wp-module-secure-passwords/tree/1.1.3",
-                "issues": "https://github.com/newfold-labs/wp-module-secure-passwords/issues"
-            },
             "time": "2026-02-05T07:06:37+00:00"
         },
         {
@@ -1645,7 +1570,7 @@
             "version": "1.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/newfold-labs/wp-module-sso.git",
+                "url": "git@github.com:newfold-labs/wp-module-sso.git",
                 "reference": "609b941544a3b4ce7cd5e2b4ee18d47fe7d1504e"
             },
             "dist": {
@@ -1718,10 +1643,6 @@
                 }
             ],
             "description": "Single sign-on functionality for Newfold WordPress sites.",
-            "support": {
-                "source": "https://github.com/newfold-labs/wp-module-sso/tree/1.2.0",
-                "issues": "https://github.com/newfold-labs/wp-module-sso/issues"
-            },
             "time": "2025-11-14T21:10:22+00:00"
         },
         {
@@ -3014,7 +2935,7 @@
             "version": "1.2.6",
             "source": {
                 "type": "git",
-                "url": "https://github.com/newfold-labs/wp-php-standards.git",
+                "url": "git@github.com:newfold-labs/wp-php-standards.git",
                 "reference": "1b52c4ada6d08948e4587afe8e962bc76c440c44"
             },
             "dist": {
@@ -3045,10 +2966,6 @@
                 }
             ],
             "description": "PHP Code Sniffer Standards for Newfold WordPress projects.",
-            "support": {
-                "source": "https://github.com/newfold-labs/wp-php-standards/tree/1.2.6",
-                "issues": "https://github.com/newfold-labs/wp-php-standards/issues"
-            },
             "time": "2026-05-11T14:04:37+00:00"
         },
         {
@@ -3445,12 +3362,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "5d4f7cc7622a8e3a4d3771a9133ac6b5a228c19f"
+                "reference": "36ba91e82e1b493faef2c13277d6bd2669ea9f31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/5d4f7cc7622a8e3a4d3771a9133ac6b5a228c19f",
-                "reference": "5d4f7cc7622a8e3a4d3771a9133ac6b5a228c19f",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/36ba91e82e1b493faef2c13277d6bd2669ea9f31",
+                "reference": "36ba91e82e1b493faef2c13277d6bd2669ea9f31",
                 "shasum": ""
             },
             "conflict": {
@@ -3467,6 +3384,7 @@
                 "aimeos/aimeos-core": ">=2022.04.1,<2022.10.17|>=2023.04.1,<2023.10.17|>=2024.04.1,<2024.04.7",
                 "aimeos/aimeos-laravel": "==2021.10",
                 "aimeos/aimeos-typo3": "<19.10.12|>=20,<20.10.5",
+                "aimeos/pagible": "<0.10.4",
                 "airesvsg/acf-to-rest-api": "<=3.1",
                 "akaunting/akaunting": "<2.1.13",
                 "akeneo/pim-community-dev": "<5.0.119|>=6,<6.0.53",
@@ -3551,13 +3469,14 @@
                 "bytefury/crater": "<6.0.2",
                 "cachethq/cachet": "<2.5.1",
                 "cadmium-org/cadmium-cms": "<=0.4.9",
-                "cakephp/cakephp": "<3.10.3|>=4,<4.0.10|>=4.1,<4.1.4|>=4.2,<4.2.12|>=4.3,<4.3.11|>=4.4,<4.4.10|>=5.2.10,<5.2.12|==5.3",
+                "cakephp/authentication": "<3.3.6|>=4,<4.1.1",
+                "cakephp/cakephp": "<4.5.11|>=4.6,<4.6.4|>=5,<5.1.7|>=5.2,<5.2.13|>=5.3,<5.3.6",
                 "cakephp/database": ">=4.2,<4.2.12|>=4.3,<4.3.11|>=4.4,<4.4.10",
                 "cardgate/magento2": "<2.0.33",
                 "cardgate/woocommerce": "<=3.1.15",
-                "cart2quote/module-quotation": ">=4.1.6,<=4.4.5|>=5,<5.4.4",
+                "cart2quote/module-quotation": ">=4.1.6,<4.4.6|>=5,<5.4.4",
                 "cart2quote/module-quotation-encoded": ">=4.1.6,<=4.4.5|>=5,<5.4.4",
-                "cartalyst/sentry": "<=2.1.6",
+                "cartalyst/sentry": "<2.1.7",
                 "catfan/medoo": "<1.7.5",
                 "causal/oidc": "<4",
                 "cecil/cecil": "<7.47.1",
@@ -3583,7 +3502,7 @@
                 "commerceteam/commerce": ">=0.9.6,<0.9.9",
                 "components/jquery": ">=1.0.3,<3.5",
                 "composer/composer": "<2.2.28|>=2.3,<2.9.8",
-                "concrete5/concrete5": "<9.4.8",
+                "concrete5/concrete5": "<9.5.1",
                 "concrete5/core": "<8.5.8|>=9,<9.1",
                 "contao-components/mediaelement": ">=2.14.2,<2.21.1",
                 "contao/comments-bundle": ">=2,<4.13.40|>=5.0.0.0-RC1-dev,<5.3.4",
@@ -3595,12 +3514,13 @@
                 "coreshop/core-shop": "<4.1.9|==5",
                 "corveda/phpsandbox": "<1.3.5",
                 "cosenary/instagram": "<=2.3",
+                "cotonti/cotonti": "<=1",
                 "couleurcitron/tarteaucitron-wp": "<0.3",
                 "cpsit/typo3-mailqueue": "<0.4.5|>=0.5,<0.5.2",
                 "craftcms/aws-s3": ">=2.0.2,<=2.2.4",
                 "craftcms/azure-blob": ">=2.0.0.0-beta1,<=2.1",
-                "craftcms/cms": "<4.17.12|>=5,<5.9.18",
-                "craftcms/commerce": ">=4,<4.11|>=5,<5.6",
+                "craftcms/cms": "<4.18|>=5,<5.10",
+                "craftcms/commerce": ">=4,<=4.11.1|>=5,<=5.6.4",
                 "craftcms/composer": ">=4.0.0.0-RC1-dev,<=4.10|>=5.0.0.0-RC1-dev,<=5.5.1",
                 "craftcms/craft": ">=3.5,<=4.16.17|>=5.0.0.0-RC1-dev,<=5.8.21",
                 "craftcms/google-cloud": ">=2.0.0.0-beta1,<=2.2",
@@ -3655,7 +3575,7 @@
                 "drupal/commerce_alphabank_redirect": "<1.0.3",
                 "drupal/commerce_eurobank_redirect": "<2.1.1",
                 "drupal/config_split": "<1.10|>=2,<2.0.2",
-                "drupal/core": ">=6,<6.38|>=7,<7.103|>=8,<10.5.9|>=10.6,<10.6.7|>=11,<11.2.11|>=11.3,<11.3.7",
+                "drupal/core": ">=6,<6.38|>=7,<7.103|>=8,<10.5.10|>=10.6,<10.6.9|>=11,<11.2.12|>=11.3,<11.3.10",
                 "drupal/core-recommended": ">=7,<7.102|>=8,<10.2.11|>=10.3,<10.3.9|>=11,<11.0.8",
                 "drupal/currency": "<3.5",
                 "drupal/drupal": ">=5,<5.11|>=6,<6.38|>=7,<7.102|>=8,<10.2.11|>=10.3,<10.3.9|>=11,<11.0.8",
@@ -3727,9 +3647,10 @@
                 "feehi/feehicms": "<=2.1.1",
                 "fenom/fenom": "<=2.12.1",
                 "filament/actions": ">=3.2,<3.2.123|>=4,<=4.11.3|>=5,<=5.6.3",
-                "filament/filament": ">=4,<4.3.1",
-                "filament/infolists": ">=3,<3.2.115",
-                "filament/tables": ">=3,<=3.3.50|>=4,<4.8.5|>=5,<5.3.5",
+                "filament/filament": ">=3,<=3.3.51|>=4,<4.11.5|>=5,<5.6.5",
+                "filament/forms": ">=3,<=3.3.52",
+                "filament/infolists": ">=3,<3.2.115|>=4,<=4.11.4|>=5,<=5.6.4",
+                "filament/tables": ">=3,<=3.3.50|>=4,<=4.11.4|>=5,<=5.6.4",
                 "filegator/filegator": "<7.8",
                 "filp/whoops": "<2.1.13",
                 "fineuploader/php-traditional-server": "<=1.2.2",
@@ -3775,10 +3696,10 @@
                 "georgringer/news": "<10.0.4|>=11,<11.4.4|>=12,<12.3.2|>=13,<13.0.2|>=14,<14.0.3",
                 "geshi/geshi": "<=1.0.9.1",
                 "getformwork/formwork": "<=2.3.3",
-                "getgrav/grav": "<=2.0.0.0-RC1",
+                "getgrav/grav": "<=2.0.0.0-RC8",
                 "getgrav/grav-plugin-api": "<1.0.0.0-beta15",
                 "getgrav/grav-plugin-form": "<9.1",
-                "getkirby/cms": "<=4.9|>=5,<=5.4",
+                "getkirby/cms": "<=4.9.3|>=5,<=5.4.3",
                 "getkirby/kirby": "<3.9.8.3-dev|>=3.10,<3.10.1.2-dev|>=4,<4.7.1",
                 "getkirby/panel": "<2.5.14",
                 "getkirby/starterkit": "<=3.7.0.2",
@@ -3793,12 +3714,12 @@
                 "gp247/core": "<1.1.24",
                 "gree/jose": "<2.2.1",
                 "gregwar/rst": "<1.0.3",
-                "grumpydictator/firefly-iii": "<6.1.17|>=6.4.23,<=6.5",
+                "grumpydictator/firefly-iii": "<=6.6.2",
                 "gugoan/economizzer": "<=0.9.0.0-beta1",
-                "guzzlehttp/guzzle": "<6.5.8|>=7,<7.4.5",
+                "guzzlehttp/guzzle": "<7.12.1",
                 "guzzlehttp/guzzle-services": "<1.5.4",
                 "guzzlehttp/oauth-subscriber": "<0.8.1",
-                "guzzlehttp/psr7": "<2.10.2",
+                "guzzlehttp/psr7": "<2.12.1",
                 "haffner/jh_captcha": "<=2.1.3|>=3,<=3.0.2",
                 "handcraftedinthealps/goodby-csv": "<1.4.3",
                 "harvesthq/chosen": "<1.8.7",
@@ -3853,6 +3774,7 @@
                 "jasig/phpcas": "<1.3.3",
                 "jbartels/wec-map": "<3.0.3",
                 "jcbrand/converse.js": "<3.3.3",
+                "jleehr/canto-saas-api": "<=2",
                 "joedolson/my-calendar": "<3.7.7",
                 "joelbutcher/socialstream": "<5.6|>=6,<6.2",
                 "johnbillion/query-monitor": "<3.20.4",
@@ -3896,7 +3818,7 @@
                 "lara-zeus/artemis": ">=1,<=1.0.6",
                 "lara-zeus/dynamic-dashboard": ">=3,<=3.0.1",
                 "laravel/fortify": "<1.11.1",
-                "laravel/framework": "<12.60|>=13,<13.10",
+                "laravel/framework": "<12.61.1|>=13,<13.12",
                 "laravel/laravel": ">=5.4,<5.4.22",
                 "laravel/passport": ">=13,<13.7.1",
                 "laravel/pulse": "<1.3.1",
@@ -3987,6 +3909,7 @@
                 "movim/moxl": ">=0.8,<=0.10",
                 "movingbytes/social-network": "<=1.2.1",
                 "mpdf/mpdf": "<=7.1.7",
+                "mtdowling/jmespath.php": "<2.9.1",
                 "munkireport/comment": "<4",
                 "munkireport/managedinstalls": "<2.6",
                 "munkireport/munki_facts": "<1.5",
@@ -4056,6 +3979,7 @@
                 "paragonie/random_compat": "<2",
                 "paragonie/sodium_compat": "<1.24|>=2,<2.5",
                 "passbolt/passbolt_api": "<4.6.2",
+                "paymenter/paymenter": "<1.5",
                 "paypal/adaptivepayments-sdk-php": "<=3.9.2",
                 "paypal/invoice-sdk-php": "<=3.9",
                 "paypal/merchant-sdk-php": "<3.12",
@@ -4073,19 +3997,21 @@
                 "phenx/php-svg-lib": "<0.5.2",
                 "php-censor/php-censor": "<2.0.13|>=2.1,<2.1.5",
                 "php-mod/curl": "<2.3.2",
-                "phpbb/phpbb": "<3.3.11",
+                "php-standard-library/h2": ">=6.1,<6.1.2|>=6.2,<6.2.1",
+                "php-standard-library/php-standard-library": ">=6.1,<6.1.2|>=6.2,<6.2.1",
+                "phpbb/phpbb": "<3.3.16|==4.0.0.0-alpha1",
                 "phpems/phpems": ">=6,<=6.1.3",
                 "phpfastcache/phpfastcache": "<6.1.5|>=7,<7.1.2|>=8,<8.0.7",
                 "phpmailer/phpmailer": "<6.5",
                 "phpmussel/phpmussel": ">=1,<1.6",
                 "phpmyadmin/phpmyadmin": "<5.2.2",
-                "phpmyfaq/phpmyfaq": "<4.1.3",
+                "phpmyfaq/phpmyfaq": "<4.1.4",
                 "phpoffice/common": "<0.2.9",
                 "phpoffice/math": "<=0.2",
                 "phpoffice/phpexcel": "<=1.8.2",
                 "phpoffice/phpspreadsheet": "<=1.30.4|>=2,<=2.1.15|>=2.2,<=2.4.4|>=3,<=3.10.4|>=4,<=5.6",
                 "phppgadmin/phppgadmin": "<=7.13",
-                "phpseclib/phpseclib": "<=2.0.53|>=3,<=3.0.51",
+                "phpseclib/phpseclib": "<=2.0.54|>=3,<=3.0.53",
                 "phpservermon/phpservermon": "<3.6",
                 "phpsysinfo/phpsysinfo": "<3.4.3",
                 "phpunit/phpunit": "<8.5.52|>=9,<9.6.33|>=10,<10.5.62|>=11,<11.5.50|>=12,<12.5.8|>=12.5.21,<12.5.22|>=13.1.5,<13.1.6",
@@ -4101,7 +4027,7 @@
                 "pimcore/demo": "<10.3",
                 "pimcore/ecommerce-framework-bundle": "<1.0.10",
                 "pimcore/perspective-editor": "<1.5.1",
-                "pimcore/pimcore": "<=12.3.6",
+                "pimcore/pimcore": "<=12.3.8",
                 "pimcore/web2print-tools-bundle": "<=5.2.1|>=6.0.0.0-RC1-dev,<=6.1",
                 "piwik/piwik": "<1.11",
                 "pixelfed/pixelfed": "<0.12.5",
@@ -4109,6 +4035,7 @@
                 "pocketmine/bedrock-protocol": "<8.0.2",
                 "pocketmine/pocketmine-mp": "<5.42.1",
                 "pocketmine/raklib": ">=0.14,<0.14.6|>=0.15,<0.15.1",
+                "pontedilana/php-weasyprint": "<=2.5.1",
                 "poweradmin/poweradmin": "<4.2.4|>=4.3,<4.3.3",
                 "pressbooks/pressbooks": "<5.18",
                 "prestashop/autoupgrade": ">=4,<4.10.1",
@@ -4125,8 +4052,8 @@
                 "prestashop/ps_linklist": "<3.1",
                 "privatebin/privatebin": "<1.4|>=1.5,<1.7.4|>=1.7.7,<2.0.3",
                 "processwire/processwire": "<=3.0.255",
-                "propel/propel": ">=2.0.0.0-alpha1,<=2.0.0.0-alpha7",
-                "propel/propel1": ">=1,<=1.7.1",
+                "propel/propel": ">=2.0.0.0-alpha1,<2.0.0.0-alpha8",
+                "propel/propel1": ">=1,<1.7.2",
                 "psy/psysh": "<=0.11.22|>=0.12,<=0.12.18",
                 "pterodactyl/panel": "<1.12.3",
                 "ptheofan/yii2-statemachine": ">=2.0.0.0-RC1-dev,<=2",
@@ -4187,10 +4114,10 @@
                 "silverstripe-australia/advancedreports": ">=1,<=2",
                 "silverstripe/admin": "<1.13.19|>=2,<2.1.8",
                 "silverstripe/assets": "<2.4.5|>=3,<3.1.3",
-                "silverstripe/cms": "<4.11.3",
+                "silverstripe/cms": "<6.2.1",
                 "silverstripe/comments": ">=1.3,<3.1.1",
-                "silverstripe/forum": "<=0.6.1|>=0.7,<=0.7.3",
-                "silverstripe/framework": "<5.3.23",
+                "silverstripe/forum": "<0.6.2|>=0.7,<0.7.4",
+                "silverstripe/framework": "<6.2.2",
                 "silverstripe/graphql": ">=2,<2.0.5|>=3,<3.8.2|>=4,<4.3.7|>=5,<5.1.3",
                 "silverstripe/hybridsessions": ">=1,<2.4.1|>=2.5,<2.5.1",
                 "silverstripe/recipe-cms": ">=4.5,<4.5.3",
@@ -4200,7 +4127,8 @@
                 "silverstripe/silverstripe-omnipay": "<2.5.2|>=3,<3.0.2|>=3.1,<3.1.4|>=3.2,<3.2.1",
                 "silverstripe/subsites": ">=2,<2.6.1",
                 "silverstripe/taxonomy": ">=1.3,<1.3.1|>=2,<2.0.1",
-                "silverstripe/userforms": "<3|>=5,<5.4.2",
+                "silverstripe/userforms": "<6.4.9|>=7,<7.0.7|>=7.1,<7.1.1",
+                "silverstripe/versioned": "<3.2.1",
                 "silverstripe/versioned-admin": ">=1,<1.11.1",
                 "simogeo/filemanager": "<=2.5",
                 "simple-updates/phpwhois": "<=1",
@@ -4219,12 +4147,13 @@
                 "sjbr/sr-freecap": "<2.4.6|>=2.5,<2.5.3",
                 "sjbr/static-info-tables": "<2.3.1",
                 "slim/psr7": "<1.4.1|>=1.5,<1.5.1|>=1.6,<1.6.1",
-                "slim/slim": "<2.6",
+                "slim/slim": "<2.6|>=4.4,<=4.15.1",
                 "slub/slub-events": "<3.0.3",
                 "smarty/smarty": "<4.5.3|>=5,<5.1.1",
-                "snipe/snipe-it": "<8.4.1",
+                "snipe/snipe-it": "<=8.6.1",
                 "socalnick/scn-social-auth": "<1.15.2",
                 "socialiteproviders/steam": "<1.1",
+                "solidinvoice/solidinvoice": "<=2.3.15",
                 "solspace/craft-freeform": "<4.1.29|>=5,<=5.14.6",
                 "soosyze/soosyze": "<=2",
                 "spatie/browsershot": "<5.0.5",
@@ -4233,6 +4162,7 @@
                 "spencer14420/sp-php-email-handler": "<1",
                 "spipu/html2pdf": "<5.2.8",
                 "spiral/roadrunner": "<2025.1",
+                "spomky-labs/otphp": "<11.4.3",
                 "spoon/library": "<1.4.1",
                 "spoonity/tcpdf": "<6.2.22",
                 "squizlabs/php_codesniffer": ">=1,<2.8.1|>=3,<3.0.1",
@@ -4241,7 +4171,7 @@
                 "starcitizentools/short-description": ">=4,<4.0.1",
                 "starcitizentools/tabber-neue": ">=1.9.1,<2.7.2|>=3,<3.1.1",
                 "starcitizenwiki/embedvideo": "<=4",
-                "statamic/cms": "<5.73.22|>=6,<6.18.1",
+                "statamic/cms": "<5.74|>=6,<6.20.3",
                 "stormpath/sdk": "<9.9.99",
                 "studio-42/elfinder": "<=2.1.67",
                 "studiomitte/friendlycaptcha": "<0.1.4",
@@ -4261,6 +4191,7 @@
                 "sylius/paypal-plugin": "<1.6.2|>=1.7,<1.7.2|>=2,<2.0.2",
                 "sylius/resource-bundle": ">=1,<1.3.14|>=1.4,<1.4.7|>=1.5,<1.5.2|>=1.6,<1.6.4",
                 "sylius/sylius": "<1.9.12|>=1.10,<1.10.16|>=1.11,<1.11.17|>=1.12,<=1.12.22|>=1.13,<=1.13.14|>=1.14,<=1.14.17|>=2,<=2.0.15|>=2.1,<=2.1.11|>=2.2,<=2.2.2",
+                "symbiote/silverstripe-advancedworkflow": "<6.4.5|>=7,<7.1.3|>=7.2,<7.2.1",
                 "symbiote/silverstripe-multivaluefield": ">=3,<3.1",
                 "symbiote/silverstripe-queuedjobs": ">=3,<3.0.2|>=3.1,<3.1.4|>=4,<4.0.7|>=4.1,<4.1.2|>=4.2,<4.2.4|>=4.3,<4.3.3|>=4.4,<4.4.3|>=4.5,<4.5.1|>=4.6,<4.6.4",
                 "symbiote/silverstripe-seed": "<6.0.3",
@@ -4306,7 +4237,9 @@
                 "symfony/twig-bridge": ">=2,<4.4.51|>=5,<5.4.31|>=6,<6.3.8|>=6.4.24,<6.4.40",
                 "symfony/twilio-notifier": ">=6.4,<6.4.40|>=7,<7.4.12|>=8,<8.0.12",
                 "symfony/ux-autocomplete": "<2.36|>=3,<3.1",
+                "symfony/ux-icons": ">=2.17,<2.36.1|>=3,<3.2",
                 "symfony/ux-live-component": "<2.36|>=3,<3.1",
+                "symfony/ux-toolkit": ">=2.32,<2.36.1|>=3,<3.2",
                 "symfony/ux-twig-component": "<2.25.1",
                 "symfony/validator": "<5.4.43|>=6,<6.4.11|>=7,<7.1.4",
                 "symfony/var-exporter": ">=4.2,<4.2.12|>=4.3,<4.3.8",
@@ -4326,7 +4259,7 @@
                 "thelia/thelia": ">=2.1,<2.1.3",
                 "theonedemon/phpwhois": "<=4.2.5",
                 "thinkcmf/thinkcmf": "<6.0.8",
-                "thorsten/phpmyfaq": "<4.1.3",
+                "thorsten/phpmyfaq": "<4.1.4",
                 "tikiwiki/tiki-manager": "<=17.1",
                 "timber/timber": ">=0.16.6,<1.23.1|>=1.24,<1.24.1|>=2,<2.1",
                 "tinymce/tinymce": "<7.9.3|>=8,<8.5.1",
@@ -4350,7 +4283,7 @@
                 "twig/twig": "<3.27",
                 "typicms/core": "<16.1.7",
                 "typo3/cms": "<9.5.29|>=10,<10.4.35|>=11,<11.5.23|>=12,<12.2",
-                "typo3/cms-backend": "<4.1.14|>=4.2,<4.2.15|>=4.3,<4.3.7|>=4.4,<4.4.4|>=7,<=7.6.50|>=8,<=8.7.39|>=9,<9.5.55|>=10,<=10.4.54|>=11,<=11.5.48|>=12,<=12.4.40|>=13,<=13.4.22|>=14,<=14.0.1|==14.2",
+                "typo3/cms-backend": "<10.4.57|>=11,<11.5.51|>=12,<12.4.46|>=13,<13.4.31|>=14,<14.3.3",
                 "typo3/cms-belog": ">=10,<=10.4.47|>=11,<=11.5.41|>=12,<=12.4.24|>=13,<=13.4.2",
                 "typo3/cms-beuser": ">=9,<9.5.55|>=10,<10.4.54|>=11,<11.5.48|>=12,<12.4.37|>=13,<13.4.18",
                 "typo3/cms-core": "<10.4.57|>=11,<11.5.51|>=12,<12.4.46|>=13,<13.4.31|>=14,<14.3.3",
@@ -4358,14 +4291,15 @@
                 "typo3/cms-extbase": "<6.2.24|>=7,<7.6.8|==8.1.1",
                 "typo3/cms-extensionmanager": ">=10,<=10.4.47|>=11,<=11.5.41|>=12,<=12.4.24|>=13,<=13.4.2",
                 "typo3/cms-felogin": ">=4.2,<4.2.3",
+                "typo3/cms-filelist": ">=11,<11.5.51|>=12,<12.4.46|>=13,<13.4.31|>=14,<14.3.3",
                 "typo3/cms-fluid": "<4.3.4|>=4.4,<4.4.1",
-                "typo3/cms-form": ">=8,<=8.7.39|>=9,<=9.5.24|>=10,<=10.4.47|>=11,<=11.5.41|>=12,<=12.4.24|>=13,<=13.4.2",
+                "typo3/cms-form": "<10.4.57|>=11,<11.5.51|>=12,<12.4.46|>=13,<13.4.31|>=14,<14.3.3",
                 "typo3/cms-frontend": "<4.3.9|>=4.4,<4.4.5",
-                "typo3/cms-indexed-search": ">=10,<=10.4.47|>=11,<=11.5.41|>=12,<=12.4.24|>=13,<=13.4.2",
+                "typo3/cms-indexed-search": ">=10,<=10.4.47|>=11,<=11.5.41|>=12,<=12.4.24|>=13,<13.4.31|>=14,<14.3.3",
                 "typo3/cms-install": "<4.1.14|>=4.2,<4.2.16|>=4.3,<4.3.9|>=4.4,<4.4.5|>=12.2,<12.4.8|==13.4.2",
                 "typo3/cms-lowlevel": ">=11,<=11.5.41",
                 "typo3/cms-recordlist": ">=11,<11.5.48",
-                "typo3/cms-recycler": ">=9,<9.5.55|>=10,<=10.4.54|>=11,<=11.5.48|>=12,<=12.4.40|>=13,<=13.4.22|>=14,<=14.0.1",
+                "typo3/cms-recycler": "<10.4.57|>=11,<11.5.51|>=12,<12.4.46|>=13,<13.4.31|>=14,<14.3.3",
                 "typo3/cms-redirects": ">=10,<=10.4.54|>=11,<=11.5.48|>=12,<=12.4.40|>=13,<=13.4.22|>=14,<=14.0.1",
                 "typo3/cms-rte-ckeditor": ">=9.5,<9.5.42|>=10,<10.4.39|>=11,<11.5.30",
                 "typo3/cms-scheduler": ">=11,<=11.5.41",
@@ -4405,8 +4339,11 @@
                 "wapplersystems/a21glossary": "<=0.4.10",
                 "web-auth/webauthn-framework": ">=3.3,<3.3.4|>=4.5,<4.9|>=5.2,<5.2.4|>=5.3,<5.3.1",
                 "web-auth/webauthn-lib": ">=4.5,<4.9|>=5.2,<5.2.4",
-                "web-auth/webauthn-symfony-bundle": ">=5.2,<5.2.4",
+                "web-auth/webauthn-symfony-bundle": "<5.3.4",
                 "web-feet/coastercms": "==5.5",
+                "web-token/jwt-experimental": "<=4.1.6",
+                "web-token/jwt-framework": "<=4.2.99",
+                "web-token/jwt-library": "<3.4.10|>=4,<4.0.7|>=4.1,<4.1.7",
                 "web-tp3/wec_map": "<3.0.3",
                 "webbuilders-group/silverstripe-kapost-bridge": "<0.4",
                 "webcoast/deferred-image-processing": "<1.0.2",
@@ -4532,7 +4469,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-06-11T23:34:40+00:00"
+            "time": "2026-06-26T23:29:05+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
