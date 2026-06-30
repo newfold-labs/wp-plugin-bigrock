@@ -146,7 +146,7 @@ async function isAppBodyVisible(page) {
  * @param {string} pluginSlug - Plugin slug
  * @returns {Promise<string>}
  */
-async function getPluginVersion(pluginSlug = 'wp-plugin-vodien') {
+async function getPluginVersion(pluginSlug = 'wp-plugin-bigrock') {
 	utils.fancyLog(`📦 Getting plugin version for: ${pluginSlug}`, 55, 'gray', '');
 	try {
 		const command = `plugin get ${pluginSlug} --field=version`;
