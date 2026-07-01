@@ -17,7 +17,7 @@ const WebHostingSection = () => {
 						`&utm_content=home_hosting_sites_link` +
 						`&utm_term=manage_sites` +
 						`&utm_medium=brand_plugin` +
-						`&utm_source=wp-admin/admin.php?page=bigrock#/home`
+						`&utm_source=wp-admin/admin.php?page=bigrock_in#/home`
 					}
 					target="_blank"
 					className={"wppbr-app-home-sites-action"}

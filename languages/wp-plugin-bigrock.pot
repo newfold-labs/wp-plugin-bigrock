@@ -15,23 +15,24 @@ msgstr ""
 "X-Domain: wp-plugin-bigrock\n"
 
 #. Plugin Name of the plugin
-#: wp-plugin-bigrock.php
+#: wp-plugin-bigrock.php:11
 msgid "BigRock Plugin"
 msgstr ""
 
 #. Plugin URI of the plugin
 #. Author URI of the plugin
-#: wp-plugin-bigrock.php
+#: wp-plugin-bigrock.php:12
+#: wp-plugin-bigrock.php:20
 msgid "https://www.bigrock.in"
 msgstr ""
 
 #. Description of the plugin
-#: wp-plugin-bigrock.php
+#: wp-plugin-bigrock.php:14
 msgid "WordPress plugin that integrates a WordPress site with the BigRock control panel, including performance, security, and update features."
 msgstr ""
 
 #. Author of the plugin
-#: wp-plugin-bigrock.php
+#: wp-plugin-bigrock.php:19
 #: inc/Admin.php:94
 #: inc/Admin.php:95
 msgid "BigRock"
