@@ -1,5 +1,5 @@
 /**
- * Newfold/Bluehost Plugin Specific Helpers
+ * Newfold/Bigrock Plugin Specific Helpers
  *
  * Specialized utilities for testing Newfold-managed WordPress plugins.
  * Includes helpers for dashboard widgets, capabilities, and plugin features.
