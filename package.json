@@ -42,13 +42,13 @@
         "react-use": "^17.6.0"
     },
     "devDependencies": {
+        "@axe-core/playwright": "^4.11.3",
+        "@playwright/test": "^1.60.0",
         "@tailwindcss/forms": "^0.5.10",
-        "@testing-library/cypress": "^10.0.3",
         "@wordpress/env": "^10.20.0",
         "@wordpress/scripts": "^31",
-        "axe-core": "^4.10.2",
-        "cypress": "^15.7.1",
-        "cypress-axe": "^1.6.0",
+        "@types/node": "^25.2.0",
+        "axe-core": "^4.11.3",
         "node-fetch": "^3.3.2",
         "tailwindcss": "^3.4.17",
         "yaml-lint": "^1.7.0",
@@ -60,8 +60,6 @@
         "check-licenses": "wp-scripts check-licenses --production",
         "create:dist": "rsync -r --exclude-from=.distignore . ./wp-plugin-bigrock",
         "create:zip": "cd ./wp-plugin-bigrock && zip -r -9 ../wp-plugin-bigrock.zip . && ls -lh ../wp-plugin-bigrock.zip",
-        "cypress": "npm cypress open",
-        "develop": "npm run start",
         "develop:analyzer": "npm run start:analyzer",
         "i18n": "wpi18n addtextdomain && composer run i18n",
         "lint:css": "wp-scripts lint-style '**/*.css'",
@@ -81,7 +79,10 @@
         "start:analyzer": "npm run start --webpack-bundle-analyzer",
         "storybook:dev": "start-storybook -c ./storybook",
         "storybook:build": "build-storybook -c ./storybook -o ./.docs",
-        "test:e2e": "npx cypress run",
-        "test:unit": "wp-scripts test-unit-js"
+        "test:e2e": "npm run test:playwright",
+        "test:unit": "wp-scripts test-unit-js",
+		"test:playwright": "npx playwright test",
+		"test:playwright:update-projects": "node .github/scripts/generate-playwright-projects.mjs",
+		"test:clean-module": "bash ./.github/scripts/test-clean-module"
     }
 }

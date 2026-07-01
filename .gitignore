@@ -13,6 +13,12 @@ cypress.env.json
 /tests/cypress/screenshots
 /tests/cypress/videos
 
+# Playwright
+/tests/playwright/test-results
+/tests/playwright/artifacts
+/tests/playwright/.cache/
+/tests/playwright/.auth/
+
 # Built-app files
 /.docs
 /build/*
