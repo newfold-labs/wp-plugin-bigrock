@@ -1,0 +1,7 @@
+[
+  {
+    "name": "newfold-labs/wp-plugin-bigrock",
+    "testDir": "./tests/playwright/specs",
+    "testMatch": "**/*.spec.js"
+  }
+]
