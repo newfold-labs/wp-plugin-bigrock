@@ -9,7 +9,7 @@ const help = [
 		icon: false,
 		cta: __( 'Live Chat', 'wp-plugin-bigrock' ),
 		url:
-			'https://myorders.bigrock.in/support?utm_campaign=&utm_content=help_chat_link&utm_term=live_chat&utm_medium=brand_plugin&utm_source=wp-admin/admin.php?page=bigrock#/help',
+			'https://myorders.bigrock.in/support?utm_campaign=&utm_content=help_chat_link&utm_term=live_chat&utm_medium=brand_plugin&utm_source=wp-admin/admin.php?page=bigrock_in#/help',
 	},
 	{
 		name: 'phone',
@@ -32,7 +32,7 @@ const help = [
 		icon: false,
 		cta: __( 'Find Answers', 'wp-plugin-bigrock' ),
 		url:
-			'https://www.bigrock.in/help?utm_campaign=&utm_content=help_kb_link&utm_term=find_answers&utm_medium=brand_plugin&utm_source=wp-admin/admin.php?page=bigrock#/help',
+			'https://www.bigrock.in/help?utm_campaign=&utm_content=help_kb_link&utm_term=find_answers&utm_medium=brand_plugin&utm_source=wp-admin/admin.php?page=bigrock_in#/help',
 	},
 	{
 		name: 'blog',
@@ -44,7 +44,7 @@ const help = [
 		icon: false,
 		cta: __( 'Learn Stuff', 'wp-plugin-bigrock' ),
 		url:
-			'https://www.bigrock.in/blog/?utm_campaign=&utm_content=help_blog_link&utm_term=learn_stuff&utm_medium=brand_plugin&utm_source=wp-admin/admin.php?page=bigrock#/help',
+			'https://www.bigrock.in/blog/?utm_campaign=&utm_content=help_blog_link&utm_term=learn_stuff&utm_medium=brand_plugin&utm_source=wp-admin/admin.php?page=bigrock_in#/help',
 	},
 ];
 

@@ -33,7 +33,7 @@ class AdminBar {
 			array(
 				'id'    => 'bigrock-support',
 				'title' => __( 'Need help?', 'wp-plugin-bigrock' ),
-				'href'  => apply_filters( 'nfd_build_url', admin_url( 'admin.php?page=bigrock#/help' ) ),
+				'href'  => apply_filters( 'nfd_build_url', admin_url( 'admin.php?page=bigrock_in#/help' ) ),
 				'meta'  => array(
 					'title' => esc_attr__( 'We\'re here for you!', 'wp-plugin-bigrock' ),
 				),

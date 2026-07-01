@@ -3,14 +3,16 @@ on:
   push:
     branches:
       - '**'
-    pull_request:
-      types: [ opened, edited, synchronize, reopened, ready_for_review ]
+  pull_request:
+    types: [ opened, edited, synchronize, reopened, ready_for_review ]
 concurrency:
   group: ${{ github.workflow }}-${{ github.event_name == 'pull_request' && github.head_ref || github.sha }}
   cancel-in-progress: true
 jobs:
   wp-i18n:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
@@ -46,10 +48,10 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
 
-      - name: Use Node.js 20.x
+      - name: Use Node.js 24.x
         uses: actions/setup-node@395ad3262231945c25e8478fd5baf05154b1d79f # v6.1.0
         with:
-          node-version: 20.x
+          node-version: 24.x
 
       - name: Log debug information
         run: |
@@ -94,19 +96,16 @@ jobs:
           echo "i18n files are out of date"
           echo "Please run command (composer run i18n) locally to update them and commit before releasing"
 
-      - name: Commit web files
-        if: steps.changes.outcome == 'failure'
+      - name: Commit language files
+        if: steps.changes.outcome == 'failure' && github.event_name == 'push'
         run: |
           git config --local user.name "${{ github.event.head_commit.author.name }}"
           git config --local user.email "${{ github.event.head_commit.author.email }}"
           git remote -v
-          git add -A
+          git add languages/
           git commit -m "WordPress i18n triggered by commit ${{ github.sha }}"
           git status
 
       - name: Push changes
-        if: steps.changes.outcome == 'failure'
-        uses: ad-m/github-push-action@77c5b412c50b723d2a4fbc6d71fb5723bcd439aa # v1.0.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
+        if: steps.changes.outcome == 'failure' && github.event_name == 'push'
+        run: git push origin HEAD:${{ github.ref_name }}

@@ -140,7 +140,7 @@ export const comingSoonAdminbarToggle = ( comingSoon ) => {
  * @return {string} The new URL.
  */
 export const addUtmParams = (url, params = {}) => {
-	params.utm_source = `wp-admin/admin.php?page=bigrock${window.location.hash}`;
+	params.utm_source = `wp-admin/admin.php?page=bigrock_in${window.location.hash}`;
 	params.utm_medium = 'bigrock_plugin';
 	return addQueryArgs(url, params);
 }

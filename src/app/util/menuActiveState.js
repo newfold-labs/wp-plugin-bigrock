@@ -49,6 +49,15 @@ if (typeof window !== 'undefined') {
 				setTimeout(updateActiveMenuItem, 100);
 			});
 		});
+
+		// Listen for clicks on React app navigation links
+		document.addEventListener('click', (e) => {
+			// Check if clicked element or its parent is a navigation link
+			const target = e.target.closest('a[href^="#/"], .wppbr-app-navitem');
+			if (target) {
+				setTimeout(updateActiveMenuItem, 50);
+			}
+		});
 	});
 }
 
