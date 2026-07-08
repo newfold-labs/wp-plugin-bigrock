@@ -11,7 +11,7 @@ const SettingsSection = () => {
 				<ActionField
 					label={__("Manage Settings", 'wp-plugin-bigrock')}
 					buttonLabel={__("Settings", 'wp-plugin-bigrock')}
-					href={window.NewfoldRuntime.linkTracker.addUtmParams(`admin.php?page=bigrock#/settings`)}
+					href={window.NewfoldRuntime.linkTracker.addUtmParams(`admin.php?page=bigrock_in#/settings`)}
 					className={"wppbr-app-home-settings-action"}
 				>
 					{__('Manage your site settings. You can ajdust automatic updates, comments, revisions and more.', 'wp-plugin-bigrock')}
@@ -20,7 +20,7 @@ const SettingsSection = () => {
 				<ActionField
 					label={__("Performance", 'wp-plugin-bigrock')}
 					buttonLabel={__("Performance", 'wp-plugin-bigrock')}
-					href={window.NewfoldRuntime.linkTracker.addUtmParams(`admin.php?page=bigrock#/settings/performance`)}
+					href={window.NewfoldRuntime.linkTracker.addUtmParams(`admin.php?page=bigrock_in#/settings/performance`)}
 					className={"wppbr-app-home-performance-action"}
 				>
 					{__('Manage site performance and caching settings as well as clear the site cache.', 'wp-plugin-bigrock')}
@@ -29,7 +29,7 @@ const SettingsSection = () => {
 				<ActionField
 					label={__("Marketplace", 'wp-plugin-bigrock')}
 					buttonLabel={__("Visit Marketplace", 'wp-plugin-bigrock')}
-					href={window.NewfoldRuntime.linkTracker.addUtmParams(`admin.php?page=bigrock#/marketplace`)}
+					href={window.NewfoldRuntime.linkTracker.addUtmParams(`admin.php?page=bigrock_in#/marketplace`)}
 					className={"wppbr-app-home-marketplace-action"}
 				>
 					{__('Add site services, themes or plugins from the marketplace.', 'wp-plugin-bigrock')}

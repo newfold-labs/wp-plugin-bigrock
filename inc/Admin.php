@@ -193,8 +193,8 @@ final class Admin {
 	public static function actions( $actions ) {
 		return array_merge(
 			array(
-				'overview' => '<a href="' . \apply_filters( 'nfd_build_url', admin_url( 'admin.php?page=bigrock#/home' ) ) . '">' . __( 'Home', 'wp-plugin-bigrock' ) . '</a>',
-				'settings' => '<a href="' . \apply_filters( 'nfd_build_url', admin_url( 'admin.php?page=bigrock#/settings' ) ) . '">' . __( 'Settings', 'wp-plugin-bigrock' ) . '</a>',
+				'overview' => '<a href="' . \apply_filters( 'nfd_build_url', admin_url( 'admin.php?page=bigrock_in#/home' ) ) . '">' . __( 'Home', 'wp-plugin-bigrock' ) . '</a>',
+				'settings' => '<a href="' . \apply_filters( 'nfd_build_url', admin_url( 'admin.php?page=bigrock_in#/settings' ) ) . '">' . __( 'Settings', 'wp-plugin-bigrock' ) . '</a>',
 			),
 			$actions
 		);
