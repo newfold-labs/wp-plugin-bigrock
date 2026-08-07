@@ -96,6 +96,23 @@ add_filter(
 );
 
 setContainer( $bigrock_module_container );
+// Load Data class for AI SiteGen brand mapping
+require_once BIGROCK_PLUGIN_DIR . '/inc/Data.php';
+
+/**
+ * Sub-brands like 'web', 'vodien', and 'crazy-domains' should use 'networksolutions'
+ * as the brand identifier when making AI SiteGen API calls.
+ */
+add_filter(
+	'newfold_ai_sitegen_brand',
+	function ( $brand ) {
+		// Check if this plugin's Data class has the get_ai_sitegen_brand method
+		if ( method_exists( \Bigrock\Data::class, 'get_ai_sitegen_brand' ) ) {
+			return \Bigrock\Data::get_ai_sitegen_brand();
+		}
+		return $brand;
+	}
+);
 
 // Set up the updater endpoint and map values
 $updateurl     = 'https://hiive.cloud/workers/release-api/plugins/newfold-labs/wp-plugin-bigrock'; // Custom API GET endpoint
