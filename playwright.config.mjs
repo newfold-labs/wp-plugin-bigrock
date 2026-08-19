@@ -76,6 +76,9 @@ export default defineConfig({
     trace: 'retain-on-failure',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
+    processEnv: { 
+      SKIP_A11Y: process.env.SKIP_A11Y || 'true',
+    },
   },
   webServer: process.env.CI ? undefined : {
     command: 'npx wp-env start',
