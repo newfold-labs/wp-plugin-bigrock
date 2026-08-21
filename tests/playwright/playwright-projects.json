@@ -30,11 +30,6 @@
     "testMatch": "*.spec.{js,mjs}"
   },
   {
-    "name": "newfold-labs/wp-module-deactivation",
-    "testDir": "./vendor/newfold-labs/wp-module-deactivation/tests/playwright/specs",
-    "testMatch": "*.spec.{js,mjs}"
-  },
-  {
     "name": "newfold-labs/wp-module-global-ctb",
     "testDir": "./vendor/newfold-labs/wp-module-global-ctb/tests/playwright/specs",
     "testMatch": "*.spec.{js,mjs}"
