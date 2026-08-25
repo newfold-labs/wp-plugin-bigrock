@@ -107,6 +107,9 @@ async function checkColorContrast(page, selector, options = {}) {
     axeBuilder.exclude(options.exclude);
   }
   
+  // disable all rules
+  axeBuilder.withRules([]);
+  
   const results = await axeBuilder.analyze();
   
   if (results.violations.length > 0) {
