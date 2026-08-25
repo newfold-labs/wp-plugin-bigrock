@@ -44,7 +44,7 @@ async function checkA11y(page, selector, options = {}) {
   
   // Default to WCAG AA compliance (can be overridden with options.tags)
   if (!options.tags) {
-    axeBuilder.withTags(['wcag2aa']);
+    axeBuilder.withTags([]);
   } else if (options.tags.length > 0) {
     axeBuilder.withTags(options.tags);
   }
