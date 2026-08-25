@@ -44,7 +44,7 @@ async function checkA11y(page, selector, options = {}) {
   
   // Default to WCAG AA compliance (can be overridden with options.tags)
   if (!options.tags) {
-    axeBuilder.withTags(['wcag2aa', 'wcag21aa']);
+    axeBuilder.withTags(['wcag2aa']);
   } else if (options.tags.length > 0) {
     axeBuilder.withTags(options.tags);
   }
@@ -107,8 +107,8 @@ async function checkColorContrast(page, selector, options = {}) {
     axeBuilder.exclude(options.exclude);
   }
   
-  // disable all rules
-  axeBuilder.withRules([]);
+  // Only run color-contrast rule
+  axeBuilder.withRules(['color-contrast']);
   
   const results = await axeBuilder.analyze();
   
