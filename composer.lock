@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "902e84935bfa6a866eb7b6a5dbf9b4af",
+    "content-hash": "32fbc7c61310a65f3340f519a31d0a5e",
     "packages": [
         {
             "name": "colinmollenhour/credis",
@@ -1601,19 +1601,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/newfold-labs/wp-module-onboarding.git",
-                "reference": "409a723bc051b45f63ad9880b336e7b49a1f05c8"
+                "reference": "170d25d7780f3781d45d340fafe2393fb701f265"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/newfold-labs/wp-module-onboarding/zipball/409a723bc051b45f63ad9880b336e7b49a1f05c8",
-                "reference": "409a723bc051b45f63ad9880b336e7b49a1f05c8",
+                "url": "https://api.github.com/repos/newfold-labs/wp-module-onboarding/zipball/170d25d7780f3781d45d340fafe2393fb701f265",
+                "reference": "170d25d7780f3781d45d340fafe2393fb701f265",
                 "shasum": ""
             },
             "require": {
                 "mustache/mustache": "^2.14.2",
                 "newfold-labs/wp-module-facebook": "^1.3.3",
                 "newfold-labs/wp-module-migration": "^1.7.1",
-                "newfold-labs/wp-module-onboarding-data": "^1.2.23",
+                "newfold-labs/wp-module-onboarding-data": "^1.2.27+ns",
                 "newfold-labs/wp-module-patterns": "^2.10.3",
                 "wp-cli/wp-config-transformer": "^1.4.4",
                 "wp-forge/helpers": "^2.0"
@@ -1692,20 +1692,24 @@
                 }
             ],
             "description": "Next-generation WordPress Onboarding for WordPress sites at Newfold Digital.",
-            "time": "2026-08-10T12:50:55+00:00"
+            "support": {
+                "source": "https://github.com/newfold-labs/wp-module-onboarding/tree/auto-translate/main-networksolutions",
+                "issues": "https://github.com/newfold-labs/wp-module-onboarding/issues"
+            },
+            "time": "2026-08-27T09:52:19+00:00"
         },
         {
             "name": "newfold-labs/wp-module-onboarding-data",
-            "version": "1.2.26+ns",
+            "version": "1.2.27+ns",
             "source": {
                 "type": "git",
                 "url": "https://github.com/newfold-labs/wp-module-onboarding-data.git",
-                "reference": "4253d22e4f67df46a3a1a68dcd744ac2a8fc6f88"
+                "reference": "6e527b7d19a6d2d89e7aaee3fd63d264b312c977"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/newfold-labs/wp-module-onboarding-data/zipball/4253d22e4f67df46a3a1a68dcd744ac2a8fc6f88",
-                "reference": "4253d22e4f67df46a3a1a68dcd744ac2a8fc6f88",
+                "url": "https://api.github.com/repos/newfold-labs/wp-module-onboarding-data/zipball/6e527b7d19a6d2d89e7aaee3fd63d264b312c977",
+                "reference": "6e527b7d19a6d2d89e7aaee3fd63d264b312c977",
                 "shasum": ""
             },
             "require": {
@@ -1788,7 +1792,7 @@
                 }
             ],
             "description": "A non-toggleable module containing a standardized interface for interacting with Onboarding data.",
-            "time": "2026-08-10T12:50:11+00:00"
+            "time": "2026-08-27T09:43:31+00:00"
         },
         {
             "name": "newfold-labs/wp-module-patterns",
@@ -4059,12 +4063,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "184210cfefe1023c2e4f7d41b5b7d77030cd88f7"
+                "reference": "d7dcb4d45ec2a3ee1a5b24a0b071868c280807e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/184210cfefe1023c2e4f7d41b5b7d77030cd88f7",
-                "reference": "184210cfefe1023c2e4f7d41b5b7d77030cd88f7",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/d7dcb4d45ec2a3ee1a5b24a0b071868c280807e1",
+                "reference": "d7dcb4d45ec2a3ee1a5b24a0b071868c280807e1",
                 "shasum": ""
             },
             "conflict": {
@@ -4172,6 +4176,7 @@
                 "cakephp/authentication": "<2.11.1|>=3,<3.3.6|>=4,<4.1.1",
                 "cakephp/cakephp": "<4.5.11|>=4.6,<4.6.4|>=5,<5.1.7|>=5.2,<5.2.13|>=5.3,<5.3.6",
                 "cakephp/database": ">=4.2,<4.2.12|>=4.3,<4.3.11|>=4.4,<4.4.10",
+                "cakephp/debug_kit": "<4.10.3|>=5,<5.2.4",
                 "cardgate/magento2": "<2.0.33",
                 "cardgate/woocommerce": "<=3.1.15",
                 "cart2quote/module-quotation": ">=4.1.6,<4.4.6|>=5,<5.4.4",
@@ -4498,7 +4503,7 @@
                 "jweiland/clubdirectory": "<8.1.3",
                 "jweiland/events2": "<10.2.12",
                 "jweiland/kk-downloader": "<1.2.2",
-                "jweiland/pforum": "<6.2.4",
+                "jweiland/pforum": "<4.0.4|>=5,<5.0.1|>=6,<6.2.4",
                 "jweiland/telephonedirectory": "<6.2",
                 "jweiland/yellowpages2": "<8.1.2",
                 "kantorge/yaffa": "<=2",
@@ -4599,7 +4604,7 @@
                 "microsoft/microsoft-graph": ">=1.16,<1.109.1|>=2,<2.0.1",
                 "microsoft/microsoft-graph-beta": "<2.0.1",
                 "microsoft/microsoft-graph-core": "<2.0.2",
-                "microweber/microweber": "<2.0.20",
+                "microweber/microweber": "<=2.0.20",
                 "mikehaertl/php-shellcommand": "<1.6.1",
                 "mineadmin/mineadmin": "<3.2.0.0-alpha2",
                 "miniorange/miniorange-saml": "<1.4.3",
@@ -4719,7 +4724,7 @@
                 "phpmailer/phpmailer": "<6.5",
                 "phpmussel/phpmussel": ">=1,<1.6",
                 "phpmyadmin/phpmyadmin": "<5.2.2",
-                "phpmyfaq/phpmyfaq": "<4.1.4",
+                "phpmyfaq/phpmyfaq": "<=4.1.4",
                 "phpoffice/common": "<0.2.9",
                 "phpoffice/math": "<=0.2",
                 "phpoffice/phpexcel": "<=1.8.2",
@@ -5190,7 +5195,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-08-25T09:34:25+00:00"
+            "time": "2026-08-26T16:17:54+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
