@@ -46,6 +46,8 @@ const projects = JSON.parse(readFileSync(projectsFile, 'utf8'));
 // Set environment variable for plugin root
 process.env.PLUGIN_DIR = __dirname;
 process.env.PLUGIN_ID = 'bigrock_in';
+// WP-CLI directory name (differs from PLUGIN_ID admin page slug for regional brands).
+process.env.PLUGIN_SLUG = 'wp-plugin-bigrock';
 process.env.WP_ADMIN_USERNAME = process.env.WP_ADMIN_USERNAME || 'admin';
 process.env.WP_ADMIN_PASSWORD = process.env.WP_ADMIN_PASSWORD || 'password';
 process.env.WP_VERSION = process.env.WP_VERSION || wpVersion;
@@ -74,6 +76,9 @@ export default defineConfig({
     trace: 'retain-on-failure',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
+    processEnv: { 
+      SKIP_A11Y: process.env.SKIP_A11Y || 'true',
+    },
   },
   webServer: process.env.CI ? undefined : {
     command: 'npx wp-env start',

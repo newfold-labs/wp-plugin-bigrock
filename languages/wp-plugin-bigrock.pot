@@ -33,8 +33,8 @@ msgstr ""
 
 #. Author of the plugin
 #: wp-plugin-bigrock.php:19
+#: inc/Admin.php:93
 #: inc/Admin.php:94
-#: inc/Admin.php:95
 msgid "BigRock"
 msgstr ""
 
@@ -98,20 +98,20 @@ msgstr ""
 msgid "Help"
 msgstr ""
 
-#: inc/Admin.php:144
+#: inc/Admin.php:143
 msgid "Please update to a newer WordPress version."
 msgstr ""
 
-#: inc/Admin.php:145
+#: inc/Admin.php:144
 msgid "There are new WordPress components which this plugin requires in order to render the interface."
 msgstr ""
 
-#: inc/Admin.php:146
+#: inc/Admin.php:145
 msgid "Please update now"
 msgstr ""
 
 #. translators: %1$s is the WordPress URL, %2$s is the BigRock URL.
-#: inc/Admin.php:214
+#: inc/Admin.php:213
 #, php-format
 msgid "Thank you for creating with %1$s and %2$s"
 msgstr ""
